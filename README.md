@@ -2,7 +2,7 @@ PyBrain -- the Python Machine Learning Library
 ==============================================
 
 [![Build
-Status](https://travis-ci.org/hobson/pybrain.svg?branch=master)](https://travis-ci.org/hobson/pybrain)
+Status](https://travis-ci.org/pybrain2/pybrain2.svg?branch=master)](https://travis-ci.org/pybrain2/pybrain2)
 [![Coverage
 Status](https://coveralls.io/repos/hobson/pybrain/badge.png)](https://coveralls.io/r/hobson/pybrain)
 [![Version
