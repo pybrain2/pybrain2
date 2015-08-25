@@ -1,0 +1,23 @@
+package:
+  name: pybrain2
+  version: "0.4.0"
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - scipy
+
+  run:
+    - python
+    - scipy
+
+
+about:
+  home: http://github.com/pybrain2/
+  license: BSD
+  summary: 'PyBrain2 is the modestly improved PyBrain, the Swiss army knife for neural networking.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
