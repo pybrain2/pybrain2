@@ -3,8 +3,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from random import random, choice
 from scipy import zeros
 
-from pybrain.utilities import Named
-from pybrain.rl.environments.environment import Environment
+from pybrain2.utilities import Named
+from pybrain2.rl.environments.environment import Environment
 
 # TODO: mazes can have any number of dimensions?
 

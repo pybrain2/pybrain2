@@ -1,8 +1,8 @@
 """
-    >>> from pybrain.datasets.supervised import SupervisedDataSet
-    >>> from pybrain.supervised.trainers import BackpropTrainer
+    >>> from pybrain2.datasets.supervised import SupervisedDataSet
+    >>> from pybrain2.supervised.trainers import BackpropTrainer
     >>> from pybrain import FeedForwardNetwork
-    >>> from pybrain.structure import LinearLayer, SigmoidLayer, FullConnection
+    >>> from pybrain2.structure import LinearLayer, SigmoidLayer, FullConnection
     >>> from random import randrange
     >>> dataset = SupervisedDataSet(6, 2)
     >>> for i in range(1000):
@@ -47,7 +47,7 @@
 
 __author__ = 'Steffen Kampmann, steffen.kampmann@gmail.com'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

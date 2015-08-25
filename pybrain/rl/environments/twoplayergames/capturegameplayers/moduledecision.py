@@ -5,9 +5,9 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import zeros, ones
 
-from pybrain.rl.environments.twoplayergames import CaptureGame
+from pybrain2.rl.environments.twoplayergames import CaptureGame
 from .randomplayer import RandomCapturePlayer
-from pybrain.utilities import drawGibbs
+from pybrain2.utilities import drawGibbs
 
 
 class ModuleDecidingPlayer(RandomCapturePlayer):

@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from .memetic import MemeticSearch
-from pybrain.optimization.populationbased.es import ES
+from pybrain2.optimization.populationbased.es import ES
 
 
 class InnerMemeticSearch(ES, MemeticSearch):

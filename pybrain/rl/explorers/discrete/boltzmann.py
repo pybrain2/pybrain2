@@ -2,8 +2,8 @@ __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
 from scipy import array
 
-from pybrain.rl.explorers.discrete.discrete import DiscreteExplorer
-from pybrain.utilities import drawGibbs
+from pybrain2.rl.explorers.discrete.discrete import DiscreteExplorer
+from pybrain2.utilities import drawGibbs
 
 class BoltzmannExplorer(DiscreteExplorer):
     """ A discrete explorer, that executes the actions with probability

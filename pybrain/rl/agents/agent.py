@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import abstractMethod, Named
+from pybrain2.utilities import abstractMethod, Named
 
 class Agent(Named):
     """ An agent is an entity capable of producing actions, based on previous observations.

@@ -145,7 +145,7 @@ __author__ = 'Justin Bayer, bayerj@in.tum.de'
 
 from io import StringIO
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def saveInvariant(dataset):

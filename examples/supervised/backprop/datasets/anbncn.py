@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 __author__ = 'Tom Schaul, tom@idsia.ch and Daan Wierstra'
 
-from pybrain.datasets import SequentialDataSet
+from pybrain2.datasets import SequentialDataSet
 
 # TODO: make it *real* AnBnCn
 

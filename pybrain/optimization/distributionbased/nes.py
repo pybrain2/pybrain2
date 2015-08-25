@@ -2,7 +2,7 @@ __author__ = 'Daan Wierstra, Tom Schaul and Sun Yi'
 
 
 from .ves import VanillaGradientEvolutionStrategies
-from pybrain.utilities import triu2flat, blockCombine
+from pybrain2.utilities import triu2flat, blockCombine
 from scipy.linalg import inv, pinv2
 from scipy import outer, dot, multiply, zeros, diag, mat, sum
 

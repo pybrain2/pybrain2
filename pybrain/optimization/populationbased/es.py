@@ -2,7 +2,7 @@ __author__ = 'Julian Togelius and Tom Schaul, tom@idsia.ch'
 
 from random import shuffle
 
-from pybrain.optimization.optimizer import BlackBoxOptimizer
+from pybrain2.optimization.optimizer import BlackBoxOptimizer
 
 
 class ES(BlackBoxOptimizer):

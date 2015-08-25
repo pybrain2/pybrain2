@@ -16,7 +16,7 @@ __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 #########################################################################
 
 
-from pybrain.rl.environments import EpisodicTask
+from pybrain2.rl.environments import EpisodicTask
 from scipy import array, r_, clip
 from . import sensors
 

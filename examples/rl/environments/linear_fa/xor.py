@@ -7,10 +7,10 @@ an 'XOR' space.
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.learners.valuebased.linearfa import Q_LinFA
-from pybrain.rl.environments.classic.xor import XORTask
-from pybrain.rl.experiments.experiment import Experiment
-from pybrain.rl.agents.learning import LearningAgent
+from pybrain2.rl.learners.valuebased.linearfa import Q_LinFA
+from pybrain2.rl.environments.classic.xor import XORTask
+from pybrain2.rl.experiments.experiment import Experiment
+from pybrain2.rl.agents.learning import LearningAgent
 from random import random, randint
 
 class LinFA_QAgent(LearningAgent):

@@ -1,10 +1,10 @@
 __author__ = 'Michael Isik'
 
-from pybrain.supervised.evolino.gpopulation import Population, SimplePopulation
-from pybrain.supervised.evolino.gfilter import Randomization
-from pybrain.supervised.evolino.individual import EvolinoIndividual, EvolinoSubIndividual
+from pybrain2.supervised.evolino.gpopulation import Population, SimplePopulation
+from pybrain2.supervised.evolino.gfilter import Randomization
+from pybrain2.supervised.evolino.individual import EvolinoIndividual, EvolinoSubIndividual
 
-from pybrain.tools.kwargsprocessor import KWArgsProcessor
+from pybrain2.tools.kwargsprocessor import KWArgsProcessor
 
 from copy   import copy
 from random import randrange

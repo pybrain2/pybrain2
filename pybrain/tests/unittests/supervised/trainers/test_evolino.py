@@ -1,8 +1,8 @@
 """
     >>> import numpy
-    >>> from pybrain.datasets.sequential              import SequentialDataSet
-    >>> from pybrain.structure.modules.evolinonetwork import EvolinoNetwork
-    >>> from pybrain.supervised.trainers.evolino      import EvolinoTrainer
+    >>> from pybrain2.datasets.sequential              import SequentialDataSet
+    >>> from pybrain2.structure.modules.evolinonetwork import EvolinoNetwork
+    >>> from pybrain2.supervised.trainers.evolino      import EvolinoTrainer
 
     >>> dataset = SequentialDataSet(0,1)
     >>> dataset.newSequence()
@@ -43,7 +43,7 @@ Tests for Training and Applying
 
 __author__ = 'Michael Isik, isikmichael@gmx.net'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

@@ -3,10 +3,10 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from inspect import isclass
 
 from .handling import XMLHandling
-from pybrain.structure.connections.shared import SharedConnection
-from pybrain.structure.networks.network import Network
-from pybrain.structure.networks.recurrent import RecurrentNetwork
-from pybrain.utilities import canonicClassString
+from pybrain2.structure.connections.shared import SharedConnection
+from pybrain2.structure.networks.network import Network
+from pybrain2.structure.networks.recurrent import RecurrentNetwork
+from pybrain2.utilities import canonicClassString
 
 # TODO: higher precision on writing parameters
 

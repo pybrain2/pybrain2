@@ -4,7 +4,7 @@ import random
 
 from pybrain import SharedFullConnection, MotherConnection, MDLSTMLayer, IdentityConnection
 from pybrain import ModuleMesh, LinearLayer, TanhLayer, SigmoidLayer
-from pybrain.structure.networks import BorderSwipingNetwork
+from pybrain2.structure.networks import BorderSwipingNetwork
 
 # TODO: incomplete implementation: missing clusters, combined outputs, etc.
 

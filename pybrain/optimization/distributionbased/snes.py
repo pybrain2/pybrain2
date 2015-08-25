@@ -2,9 +2,9 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
+from pybrain2.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
 from scipy import dot, exp, log, sqrt, floor, ones, randn
-from pybrain.tools.rankingfunctions import HansenRanking
+from pybrain2.tools.rankingfunctions import HansenRanking
 
 
 class SNES(DistributionBasedOptimizer):
@@ -113,6 +113,6 @@ class SNES(DistributionBasedOptimizer):
         
         
 if __name__ == "__main__":
-    from pybrain.rl.environments.functions.unimodal import ElliFunction
+    from pybrain2.rl.environments.functions.unimodal import ElliFunction
     print((SNES(ElliFunction(100), ones(100), verbose=True).learn()))
     

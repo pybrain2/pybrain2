@@ -16,11 +16,11 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import array
 
-from pybrain.optimization import * #@UnusedWildImport
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.rl.environments.functions.unimodal import TabletFunction
-from pybrain.rl.environments.shipsteer.northwardtask import GoNorthwardTask
-from pybrain.tools.shortcuts import buildNetwork
+from pybrain2.optimization import * #@UnusedWildImport
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.rl.environments.functions.unimodal import TabletFunction
+from pybrain2.rl.environments.shipsteer.northwardtask import GoNorthwardTask
+from pybrain2.tools.shortcuts import buildNetwork
 
 
 # this script uses a very simple learning algorithm: hill-climbing.

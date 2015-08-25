@@ -34,7 +34,7 @@ The result should be symmetric (although the weights are random)
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
@@ -45,8 +45,8 @@ Check its gradient:
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
-from pybrain.structure.networks import BidirectionalNetwork #@UnusedImport
-from pybrain.tests import runModuleTestSuite
+from pybrain2.structure.networks import BidirectionalNetwork #@UnusedImport
+from pybrain2.tests import runModuleTestSuite
 
 
 if __name__ == "__main__":

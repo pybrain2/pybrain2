@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import blockCombine
+from pybrain2.utilities import blockCombine
 from scipy import mat, dot, outer
 from scipy.linalg import inv, cholesky
 

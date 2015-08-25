@@ -6,12 +6,12 @@ __version__ = '$Id$'
 
 import copy
 
-from pybrain.datasets import SupervisedDataSet, UnsupervisedDataSet
-from pybrain.structure import BiasUnit, FeedForwardNetwork, FullConnection
-from pybrain.structure.networks.rbm import Rbm
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.supervised.trainers import Trainer
-from pybrain.unsupervised.trainers.rbm import (RbmBernoulliTrainer,
+from pybrain2.datasets import SupervisedDataSet, UnsupervisedDataSet
+from pybrain2.structure import BiasUnit, FeedForwardNetwork, FullConnection
+from pybrain2.structure.networks.rbm import Rbm
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.supervised.trainers import Trainer
+from pybrain2.unsupervised.trainers.rbm import (RbmBernoulliTrainer,
                                                RbmGaussTrainer)
 
 

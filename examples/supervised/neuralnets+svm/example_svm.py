@@ -12,11 +12,11 @@ import logging
 from os.path import join
 
 # load the necessary components
-from pybrain.datasets            import ClassificationDataSet
-from pybrain.utilities           import percentError
+from pybrain2.datasets            import ClassificationDataSet
+from pybrain2.utilities           import percentError
 
-from pybrain.structure.modules.svmunit        import SVMUnit
-from pybrain.supervised.trainers.svmtrainer   import SVMTrainer
+from pybrain2.structure.modules.svmunit        import SVMUnit
+from pybrain2.supervised.trainers.svmtrainer   import SVMTrainer
 
 # import some local stuff
 from .datasets               import generateClassificationData, plotData, generateGridData

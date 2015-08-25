@@ -1,1 +1,1 @@
-from pybrain.supervised.trainers.__init__ import *
+from pybrain2.supervised.trainers.__init__ import *

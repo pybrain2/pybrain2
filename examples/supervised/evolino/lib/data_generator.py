@@ -2,7 +2,7 @@ __author__ = 'Michael Isik'
 
 
 
-from pybrain.datasets.sequential import SequentialDataSet
+from pybrain2.datasets.sequential import SequentialDataSet
 
 from numpy import array, sin, apply_along_axis, ones
 

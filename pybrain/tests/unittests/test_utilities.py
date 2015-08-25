@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.utilities import memoize
+    >>> from pybrain2.utilities import memoize
     >>> call_count = 0
     >>> @memoize
     ... def longComp():
@@ -34,7 +34,7 @@ Tests for Serializable
 Tests for permute
 =================
 
-    >>> from pybrain.utilities import permute
+    >>> from pybrain2.utilities import permute
     >>> permute(array((0, 1, 2)), [2, 1, 0])
     array([2, 1, 0])
     >>> permute(array(((0, 0, 0), (1, 1, 1), (2, 2, 2))), (2, 0, 1))
@@ -46,7 +46,7 @@ Tests for permute
 Tests for permuteToBlocks
 =========================
 
-    >>> from pybrain.utilities import permuteToBlocks
+    >>> from pybrain2.utilities import permuteToBlocks
     >>> arr = array([[0, 1, 2, 3], [4, 5 ,6 ,7], [8, 9, 10, 11], [12, 13,14, 15]])
     >>> permuteToBlocks(arr, (2, 2))
     array([  0.,   1.,   4.,   5.,   2.,   3.,   6.,   7.,   8.,   9.,  12.,
@@ -60,8 +60,8 @@ Tests for permuteToBlocks
 
 
 from scipy import array #@UnusedImport
-from pybrain.utilities import Serializable
-from pybrain.tests import runModuleTestSuite
+from pybrain2.utilities import Serializable
+from pybrain2.tests import runModuleTestSuite
 
 
 class P(Serializable):

@@ -7,13 +7,13 @@ from scipy import random, asarray
 import xode.parser, xode.body, xode.geom #@UnresolvedImport @UnusedImport @Reimport
 import ode #@UnresolvedImport
 
-from pybrain.rl.environments.environment import Environment
+from pybrain2.rl.environments.environment import Environment
 from .tools.configgrab import ConfigGrabber
 from . import sensors, actuators
-from pybrain.utilities import threaded
+from pybrain2.utilities import threaded
 import threading
 import warnings
-from pybrain.tools.networking.udpconnection import UDPServer
+from pybrain2.tools.networking.udpconnection import UDPServer
 
 class ODEEnvironment(Environment):
     """

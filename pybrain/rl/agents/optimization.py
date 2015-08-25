@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.agents.agent import Agent
+from pybrain2.rl.agents.agent import Agent
 
 class OptimizationAgent(Agent):
     """ A simple wrapper to allow optimizers to conform to the RL interface.

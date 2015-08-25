@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
-from pybrain.rl.learners.learner import Learner
+from pybrain2.rl.learners.learner import Learner
 
 
 class MetaLearner(Learner):

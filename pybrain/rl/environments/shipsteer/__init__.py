@@ -1,2 +1,2 @@
-from pybrain.rl.environments.shipsteer.shipsteer import ShipSteeringEnvironment
-from pybrain.rl.environments.shipsteer.northwardtask import GoNorthwardTask
+from pybrain2.rl.environments.shipsteer.shipsteer import ShipSteeringEnvironment
+from pybrain2.rl.environments.shipsteer.northwardtask import GoNorthwardTask

@@ -6,8 +6,8 @@ on Unconstrained Multi-Objective Optimization benchmark function. """
 
 __author__ = 'Jean Pierre Queau, jeanpierre.queau@sbmoffshore.com'
 
-from pybrain.optimization import MultiObjectiveGA
-from pybrain.rl.environments.functions.multiobjective import Deb, Pol
+from pybrain2.optimization import MultiObjectiveGA
+from pybrain2.rl.environments.functions.multiobjective import Deb, Pol
 import pylab
 from scipy import zeros, array
 

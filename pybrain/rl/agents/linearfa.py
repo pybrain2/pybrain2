@@ -2,8 +2,8 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.agents.logging import LoggingAgent
-from pybrain.utilities import drawIndex
+from pybrain2.rl.agents.logging import LoggingAgent
+from pybrain2.utilities import drawIndex
 from scipy import array
 
 

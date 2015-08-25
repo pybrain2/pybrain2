@@ -6,8 +6,8 @@ on Constrained Multi-Objective Optimization benchmark function. """
 
 __author__ = 'Jean Pierre Queau, jeanpierre.queau@sbmoffshore.com'
 
-from pybrain.optimization import ConstMultiObjectiveGA
-from pybrain.rl.environments.functions.multiobjective import ConstDeb,ConstSrn, \
+from pybrain2.optimization import ConstMultiObjectiveGA
+from pybrain2.rl.environments.functions.multiobjective import ConstDeb,ConstSrn, \
      ConstOsy,ConstTnk,ConstBnh
 import pylab
 from scipy import zeros, array

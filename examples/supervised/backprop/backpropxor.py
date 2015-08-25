@@ -4,8 +4,8 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from datasets import SequentialXORDataSet #@UnresolvedImport
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.supervised import BackpropTrainer
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.supervised import BackpropTrainer
 
 
 def testTraining():

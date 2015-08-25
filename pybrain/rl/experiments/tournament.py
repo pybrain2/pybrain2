@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.twoplayergames.twoplayergame import TwoPlayerGame
-from pybrain.utilities import Named
+from pybrain2.rl.environments.twoplayergames.twoplayergame import TwoPlayerGame
+from pybrain2.utilities import Named
 
 
 class Tournament(Named):

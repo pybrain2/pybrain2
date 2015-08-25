@@ -2,10 +2,10 @@ __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
 from scipy import random, dot
 
-from pybrain.structure.modules.module import Module
-from pybrain.rl.explorers.explorer import Explorer
-from pybrain.tools.functions import expln, explnPrime
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.modules.module import Module
+from pybrain2.rl.explorers.explorer import Explorer
+from pybrain2.tools.functions import expln, explnPrime
+from pybrain2.structure.parametercontainer import ParameterContainer
 
 
 class StateDependentExplorer(Explorer, ParameterContainer):
@@ -14,7 +14,7 @@ class StateDependentExplorer(Explorer, ParameterContainer):
         has parameter(s) sigma, which are related to the distribution's
         standard deviation. In order to allow for negative values of sigma,
         the real std. derivation is a transformation of sigma according
-        to the expln() function (see pybrain.tools.functions).
+        to the expln() function (see pybrain2.tools.functions).
     """
 
     def __init__(self, statedim, actiondim, sigma= -2.):

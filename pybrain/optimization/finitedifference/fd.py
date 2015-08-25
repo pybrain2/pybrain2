@@ -3,8 +3,8 @@ __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de, Tom Schaul'
 from scipy import ones, zeros, dot, ravel, random
 from scipy.linalg import pinv
 
-from pybrain.auxiliary import GradientDescent
-from pybrain.optimization.optimizer import ContinuousOptimizer
+from pybrain2.auxiliary import GradientDescent
+from pybrain2.optimization.optimizer import ContinuousOptimizer
 
 
 class FiniteDifferences(ContinuousOptimizer):

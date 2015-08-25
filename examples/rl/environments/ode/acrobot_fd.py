@@ -17,14 +17,14 @@
 __author__ = "Thomas Rueckstiess, Frank Sehnke"
 __version__ = '$Id$' 
 
-from pybrain.tools.example_tools import ExTools
-from pybrain.rl.environments.ode import AcrobotEnvironment
-from pybrain.rl.environments.ode.tasks import GradualRewardTask
-from pybrain.structure.modules.tanhlayer import TanhLayer
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.agents import OptimizationAgent
-from pybrain.optimization import FiniteDifferences
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.example_tools import ExTools
+from pybrain2.rl.environments.ode import AcrobotEnvironment
+from pybrain2.rl.environments.ode.tasks import GradualRewardTask
+from pybrain2.structure.modules.tanhlayer import TanhLayer
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.agents import OptimizationAgent
+from pybrain2.optimization import FiniteDifferences
+from pybrain2.rl.experiments import EpisodicExperiment
 
 batch=2 #number of samples per learning step
 prnts=1 #number of learning steps after results are printed

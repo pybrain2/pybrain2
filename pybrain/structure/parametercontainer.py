@@ -3,7 +3,7 @@ __author__ = 'Daan Wierstra and Tom Schaul'
 from scipy import size, zeros, ndarray, array
 from numpy.random import randn
 
-from pybrain.structure.evolvables.evolvable import Evolvable
+from pybrain2.structure.evolvables.evolvable import Evolvable
 
 
 class ParameterContainer(Evolvable):
@@ -32,8 +32,8 @@ class ParameterContainer(Evolvable):
             self._params = zeros(self.paramdim)
             # enable derivatives if it is a instance of Module or Connection
             # CHECKME: the import can not be global?
-            from pybrain.structure.modules.module import Module
-            from pybrain.structure.connections.connection import Connection
+            from pybrain2.structure.modules.module import Module
+            from pybrain2.structure.connections.connection import Connection
             if isinstance(self, Module) or isinstance(self, Connection):
                 self.hasDerivatives = True
             if self.hasDerivatives:

@@ -6,11 +6,11 @@ which uses a MDRNN as network, with a simple ES algorithm."""
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.twoplayergames import CaptureGameTask
-from pybrain.structure.evolvables.cheaplycopiable import CheaplyCopiable
-from pybrain.optimization import ES
-from pybrain.utilities import storeCallResults
-from pybrain.rl.environments.twoplayergames.capturegameplayers.killing import KillingPlayer
+from pybrain2.rl.environments.twoplayergames import CaptureGameTask
+from pybrain2.structure.evolvables.cheaplycopiable import CheaplyCopiable
+from pybrain2.optimization import ES
+from pybrain2.utilities import storeCallResults
+from pybrain2.rl.environments.twoplayergames.capturegameplayers.killing import KillingPlayer
 
 # task settings: opponent, averaging to reduce noise, board size, etc.
 size = 5
@@ -22,12 +22,12 @@ res = storeCallResults(task)
 
 if simplenet:
     # simple network
-    from pybrain.tools.shortcuts import buildNetwork
+    from pybrain2.tools.shortcuts import buildNetwork
     from pybrain import SigmoidLayer
     net = buildNetwork(task.outdim, task.indim, outclass = SigmoidLayer)
 else:
     # specialized mdrnn variation
-    from pybrain.structure.networks.custom.capturegame import CaptureGameNetwork
+    from pybrain2.structure.networks.custom.capturegame import CaptureGameNetwork
     net = CaptureGameNetwork(size = size, hsize = 2, simpleborders = True)
 
 net = CheaplyCopiable(net)

@@ -25,16 +25,16 @@ from inspect import isclass
 from scipy import sum, array, ndarray, log10
 from random import random  # , choice
 
-import pybrain.optimization.optimizer as bbo
-import pybrain.optimization.populationbased.multiobjective as mobj
-import pybrain.optimization as allopts
+import pybrain2.optimization.optimizer as bbo
+import pybrain2.optimization.populationbased.multiobjective as mobj
+import pybrain2.optimization as allopts
 
-from pybrain.rl.environments.functions.unimodal import SphereFunction
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.structure.evolvables.evolvable import Evolvable
-from pybrain.rl.environments.cartpole.balancetask import BalanceTask
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.structure.modules.module import Module
+from pybrain2.rl.environments.functions.unimodal import SphereFunction
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.evolvables.evolvable import Evolvable
+from pybrain2.rl.environments.cartpole.balancetask import BalanceTask
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.structure.modules.module import Module
 
 
 # Tasks to be optimized:
@@ -253,8 +253,8 @@ def testAll(tests, allalgos, tolerant=True):
 
 
 if __name__ == '__main__':
-    from pybrain.optimization import *  #@UnusedWildImport
-    #from pybrain.optimization import CMAES #@UnusedImport
+    from pybrain2.optimization import *  #@UnusedWildImport
+    #from pybrain2.optimization import CMAES #@UnusedImport
     allalgos = [c for c in list(globals().values()) if (isclass(c)
                                  and issubclass(c, bbo.BlackBoxOptimizer)
                                  and not issubclass(c, mobj.MultiObjectiveGA)

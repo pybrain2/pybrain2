@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 __version__ = '$Id$'
 
-from pybrain.utilities import Named, abstractMethod
+from pybrain2.utilities import Named, abstractMethod
 
 
 class Trainer(Named):

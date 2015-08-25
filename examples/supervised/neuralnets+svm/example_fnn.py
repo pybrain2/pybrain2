@@ -6,10 +6,10 @@ __author__ = "Martin Felder"
 __version__ = '$Id$'
 
 from pylab import figure, ioff, clf, contourf, ion, draw, show
-from pybrain.utilities           import percentError
-from pybrain.tools.shortcuts     import buildNetwork
-from pybrain.supervised.trainers import BackpropTrainer
-from pybrain.structure.modules   import SoftmaxLayer
+from pybrain2.utilities           import percentError
+from pybrain2.tools.shortcuts     import buildNetwork
+from pybrain2.supervised.trainers import BackpropTrainer
+from pybrain2.structure.modules   import SoftmaxLayer
 
 from .datasets import generateGridData, generateClassificationData, plotData
 

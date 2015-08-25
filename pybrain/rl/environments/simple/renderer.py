@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 from pylab import plot, figure, ion, Line2D, draw, arange
-from pybrain.rl.environments.renderer import Renderer
+from pybrain2.rl.environments.renderer import Renderer
 import threading
 import time
 

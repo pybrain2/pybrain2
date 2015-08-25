@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import abstractMethod
-from pybrain.optimization.optimizer import BlackBoxOptimizer
+from pybrain2.utilities import abstractMethod
+from pybrain2.optimization.optimizer import BlackBoxOptimizer
 
 
 class Evolution(BlackBoxOptimizer):

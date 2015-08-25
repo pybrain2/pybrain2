@@ -5,7 +5,7 @@ from __future__ import print_function
 __author__ = "Martin Felder"
 
 from numpy import r_, array, isfinite
-from pybrain.datasets import SequentialDataSet
+from pybrain2.datasets import SequentialDataSet
 
 
 def convertSequenceToTimeWindows(DSseq, NewClass, winsize):

@@ -4,7 +4,7 @@ Test the forward and backward passes through a linear network.
 
     >>> from scipy import array
     >>> from pybrain import LinearLayer
-    >>> from pybrain.tools.shortcuts import buildNetwork
+    >>> from pybrain2.tools.shortcuts import buildNetwork
     >>> n = buildNetwork(2, 4, 3, bias = False, hiddenclass = LinearLayer, recurrent=True)
 
 
@@ -30,7 +30,7 @@ Verify that the inputs and outputs are proportional
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

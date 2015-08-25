@@ -12,7 +12,7 @@ __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 import pylab
 from scipy import random
-from pybrain.structure.modules import KohonenMap
+from pybrain2.structure.modules import KohonenMap
 
 som = KohonenMap(2, 5)
 

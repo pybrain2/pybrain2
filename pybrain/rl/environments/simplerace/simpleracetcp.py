@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Julian Togelius, julian@idsia.ch'
 
-from pybrain.rl.environments import Environment
+from pybrain2.rl.environments import Environment
 from math import sqrt
 import socket
 import string

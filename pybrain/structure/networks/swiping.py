@@ -2,9 +2,9 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
-from pybrain.structure.connections.shared import MotherConnection, SharedFullConnection
-from pybrain.utilities import iterCombinations
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.connections.shared import MotherConnection, SharedFullConnection
+from pybrain2.utilities import iterCombinations
 
 # TODO: special treatment for multi-dimensional lstm cells: identity connections on state buffers
 

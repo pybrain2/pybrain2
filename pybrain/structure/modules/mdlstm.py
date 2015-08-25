@@ -2,11 +2,11 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import zeros, tanh
 
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.structure.modules.module import Module
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.tools.functions import sigmoid, sigmoidPrime, tanhPrime
-from pybrain.structure.moduleslice import ModuleSlice
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.tools.functions import sigmoid, sigmoidPrime, tanhPrime
+from pybrain2.structure.moduleslice import ModuleSlice
 
 
 class MDLSTMLayer(NeuronLayer, ParameterContainer):

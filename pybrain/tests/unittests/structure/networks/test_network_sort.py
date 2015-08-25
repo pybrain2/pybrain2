@@ -5,7 +5,7 @@ don't constrain a particular order.
 
 Build a number of modules and connections, to be used for all constructions
 
-    >>> from pybrain.structure.networks.network import Network
+    >>> from pybrain2.structure.networks.network import Network
     >>> mods = buildSomeModules(10)
     >>> conns = buildSomeConnections(mods)
 
@@ -50,7 +50,7 @@ Is it the same ordering than our reference?
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from pybrain import LinearLayer, FullConnection
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSomeModules(number = 4):

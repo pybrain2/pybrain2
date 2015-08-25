@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.utilities import avgFoundAfter
+    >>> from pybrain2.utilities import avgFoundAfter
 
 A sequence of decreasing target values
     >>> dess = [20,10,3,1,0]
@@ -22,7 +22,7 @@ If a value is not always encountered, the length of the longest sequence is used
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

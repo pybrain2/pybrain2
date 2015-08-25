@@ -2,7 +2,7 @@
 
     >>> import scipy
 
-    >>> from pybrain.structure.networks.rbm import Rbm
+    >>> from pybrain2.structure.networks.rbm import Rbm
     >>> rbm = Rbm.fromDims(3, 2,
     ...                    weights=scipy.array((0, 1, 2, 3, 4, 5)))
     ...
@@ -18,7 +18,7 @@ __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 __version__ = '$Id$'
 
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 if __name__ == "__main__":

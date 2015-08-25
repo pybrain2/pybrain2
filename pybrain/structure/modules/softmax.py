@@ -3,8 +3,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 import scipy
 
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.tools.functions import safeExp
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.tools.functions import safeExp
 
 
 class SoftmaxLayer(NeuronLayer):

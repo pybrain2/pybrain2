@@ -5,7 +5,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from scipy import array, sin, cos, randn
 import logging
 
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.rl.environments.episodic import EpisodicTask
 
 
 try:

@@ -18,12 +18,12 @@ from scipy import asarray
 from numpy import sin, cos, tan, sqrt, arcsin, arctan, sign, clip, argwhere
 from matplotlib import pyplot as plt
 
-import pybrain.rl.environments
-from pybrain.rl.environments.environment import Environment
-from pybrain.rl.learners.valuebased.linearfa import SARSALambda_LinFA
-from pybrain.rl.agents.linearfa import LinearFA_Agent
-from pybrain.rl.experiments import EpisodicExperiment
-from pybrain.utilities import one_to_n
+import pybrain2.rl.environments
+from pybrain2.rl.environments.environment import Environment
+from pybrain2.rl.learners.valuebased.linearfa import SARSALambda_LinFA
+from pybrain2.rl.agents.linearfa import LinearFA_Agent
+from pybrain2.rl.experiments import EpisodicExperiment
+from pybrain2.utilities import one_to_n
 
 class BicycleEnvironment(Environment):
     """Randlov and Alstrom's bicycle model. This code matches nearly exactly
@@ -216,13 +216,13 @@ class BicycleEnvironment(Environment):
     def getSensors(self):
         return self.sensors
 
-class BalanceTask(pybrain.rl.environments.EpisodicTask):
+class BalanceTask(pybrain2.rl.environments.EpisodicTask):
     """The rider is to simply balance the bicycle while moving with the
     speed perscribed in the environment. This class uses a continuous 5
     dimensional state space, and a discrete state space.
 
     This class is heavily guided by
-    pybrain.rl.environments.cartpole.balancetask.BalanceTask.
+    pybrain2.rl.environments.cartpole.balancetask.BalanceTask.
 
     """
     max_tilt = np.pi / 6.

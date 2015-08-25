@@ -6,8 +6,8 @@ from numpy import random
 from random import sample
 from scipy import isscalar
 
-from pybrain.datasets.dataset import DataSet
-from pybrain.utilities import fListToString
+from pybrain2.datasets.dataset import DataSet
+from pybrain2.utilities import fListToString
 
 
 class SupervisedDataSet(DataSet):

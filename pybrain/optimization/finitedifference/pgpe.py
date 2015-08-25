@@ -2,7 +2,7 @@ __author__ = 'Frank Sehnke, sehnke@in.tum.de, Tom Schaul'
 
 from scipy import ones, random
 
-from pybrain.auxiliary import GradientDescent
+from pybrain2.auxiliary import GradientDescent
 from .fd import FiniteDifferences
 
 

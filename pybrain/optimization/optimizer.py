@@ -5,16 +5,16 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from scipy import array, randn, ndarray, isinf, isnan, isscalar
 import logging
 
-from pybrain.utilities import setAllArgs, abstractMethod, DivergenceError
-from pybrain.rl.learners.directsearch.directsearch import DirectSearchLearner
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.rl.environments.functions.function import FunctionEnvironment
-from pybrain.rl.environments.fitnessevaluator import FitnessEvaluator
-from pybrain.rl.environments.functions.transformations import oppositeFunction
-from pybrain.structure.evolvables.maskedmodule import MaskedModule
-from pybrain.structure.evolvables.maskedparameters import MaskedParameters
-from pybrain.structure.evolvables.topology import TopologyEvolvable
-from pybrain.structure.modules.module import Module
+from pybrain2.utilities import setAllArgs, abstractMethod, DivergenceError
+from pybrain2.rl.learners.directsearch.directsearch import DirectSearchLearner
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.rl.environments.functions.function import FunctionEnvironment
+from pybrain2.rl.environments.fitnessevaluator import FitnessEvaluator
+from pybrain2.rl.environments.functions.transformations import oppositeFunction
+from pybrain2.structure.evolvables.maskedmodule import MaskedModule
+from pybrain2.structure.evolvables.maskedparameters import MaskedParameters
+from pybrain2.structure.evolvables.topology import TopologyEvolvable
+from pybrain2.structure.modules.module import Module
 
 
 class BlackBoxOptimizer(DirectSearchLearner):

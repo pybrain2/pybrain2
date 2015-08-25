@@ -4,10 +4,10 @@ from itertools import chain
 
 from scipy import zeros
 
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
-from pybrain.structure.networks.recurrent import RecurrentNetwork
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.structure.connections import FullConnection
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.networks.recurrent import RecurrentNetwork
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.connections import FullConnection
 
 # CHECKME: allow modules that do not inherit from NeuronLayer? and treat them as single neurons?
 

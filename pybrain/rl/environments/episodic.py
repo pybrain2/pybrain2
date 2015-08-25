@@ -2,12 +2,12 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import power
 
-from pybrain.utilities import abstractMethod
-from pybrain.rl.environments.task import Task
-from pybrain.rl.agents.agent import Agent
-from pybrain.structure.modules.module import Module
-from pybrain.rl.environments.fitnessevaluator import FitnessEvaluator
-from pybrain.rl.experiments.episodic import EpisodicExperiment
+from pybrain2.utilities import abstractMethod
+from pybrain2.rl.environments.task import Task
+from pybrain2.rl.agents.agent import Agent
+from pybrain2.structure.modules.module import Module
+from pybrain2.rl.environments.fitnessevaluator import FitnessEvaluator
+from pybrain2.rl.experiments.episodic import EpisodicExperiment
 
 
 class EpisodicTask(Task, FitnessEvaluator):

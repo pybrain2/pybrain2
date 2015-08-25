@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.structure.modules.module import Module
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.modules.module import Module
 
 
 class CheaplyCopiable(ParameterContainer, Module):

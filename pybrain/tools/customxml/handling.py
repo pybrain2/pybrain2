@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from xml.dom.minidom import parse, getDOMImplementation
-from pybrain.utilities import fListToString
+from pybrain2.utilities import fListToString
 from scipy import zeros
 import string
 
@@ -131,7 +131,7 @@ class XMLHandling:
 def baseTransform(val):
     """ back-conversion: modules are encoded by their name
     and classes by the classname """
-    from pybrain.structure.modules.module import Module
+    from pybrain2.structure.modules.module import Module
     from inspect import isclass
 
     if isinstance(val, Module):

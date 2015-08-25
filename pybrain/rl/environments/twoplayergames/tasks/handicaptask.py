@@ -4,9 +4,9 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
 from .capturetask import CaptureGameTask
-from pybrain.rl.environments.twoplayergames.capturegameplayers.captureplayer import CapturePlayer
-from pybrain.rl.environments.twoplayergames.capturegameplayers import ModuleDecidingPlayer
-from pybrain.rl.environments.twoplayergames.capturegame import CaptureGame
+from pybrain2.rl.environments.twoplayergames.capturegameplayers.captureplayer import CapturePlayer
+from pybrain2.rl.environments.twoplayergames.capturegameplayers import ModuleDecidingPlayer
+from pybrain2.rl.environments.twoplayergames.capturegame import CaptureGame
 
 # TODO: parametrize hard-coded variables.
 # TODO: also allow handicap-advantage
@@ -119,7 +119,7 @@ class HandicapCaptureTask(CaptureGameTask):
 
 
 if __name__ == '__main__':
-    from pybrain.rl.environments.twoplayergames.capturegameplayers import RandomCapturePlayer, KillingPlayer
+    from pybrain2.rl.environments.twoplayergames.capturegameplayers import RandomCapturePlayer, KillingPlayer
     h = HandicapCaptureTask(4, opponentStart=False)
     p1 = RandomCapturePlayer(h.env)
     p1 = KillingPlayer(h.env)

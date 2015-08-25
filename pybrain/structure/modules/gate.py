@@ -5,9 +5,9 @@ __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 __version__ = '$Id$'
 
 
-from pybrain.structure.modules.module import Module
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.tools.functions import sigmoid, sigmoidPrime
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.tools.functions import sigmoid, sigmoidPrime
 
 
 class MultiplicationLayer(NeuronLayer):

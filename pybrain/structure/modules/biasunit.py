@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.structure.modules.module import Module
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.modules.module import Module
 
 
 class BiasUnit(NeuronLayer):

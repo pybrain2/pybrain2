@@ -12,11 +12,11 @@ online.
 
 First we need to import the necessary components from PyBrain."""
 
-from pybrain.datasets            import ClassificationDataSet
-from pybrain.utilities           import percentError
-from pybrain.tools.shortcuts     import buildNetwork
-from pybrain.supervised.trainers import BackpropTrainer
-from pybrain.structure.modules   import SoftmaxLayer
+from pybrain2.datasets            import ClassificationDataSet
+from pybrain2.utilities           import percentError
+from pybrain2.tools.shortcuts     import buildNetwork
+from pybrain2.supervised.trainers import BackpropTrainer
+from pybrain2.structure.modules   import SoftmaxLayer
 
 """ Furthermore, pylab is needed for the graphical output. """
 from pylab import ion, ioff, figure, draw, contourf, clf, show, hold, plot
@@ -92,7 +92,7 @@ for i in range(20):
     trainer.trainEpochs(1)
 
     """ Evaluate the network on the training and test data. There are several ways to do this - check
-    out the :mod:`pybrain.tools.validation` module, for instance. Here we let the trainer do the test. """
+    out the :mod:`pybrain2.tools.validation` module, for instance. Here we let the trainer do the test. """
     trnresult = percentError(trainer.testOnClassData(),
                               trndata['class'])
     tstresult = percentError(trainer.testOnClassData(

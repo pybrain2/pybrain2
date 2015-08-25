@@ -3,8 +3,8 @@ __author__ = 'Justin Bayer, Tom Schaul, {justin,tom}@idsia.ch'
 
 from scipy import array
 
-from pybrain.optimization.populationbased.ga import GA
-from pybrain.tools.nondominated import non_dominated_front, crowding_distance, non_dominated_sort
+from pybrain2.optimization.populationbased.ga import GA
+from pybrain2.tools.nondominated import non_dominated_front, crowding_distance, non_dominated_sort
 
 # TODO: not very elegant, because of the conversions between tuples and arrays all the time...
 

@@ -4,10 +4,10 @@ __author__ = 'Tom Schaul, tom@idsia.ch and Daan Wiertra, daan@idsia.ch'
 
 from scipy import zeros, array, mean, randn, exp, dot, argmax
 
-from pybrain.datasets import ReinforcementDataSet, ImportanceDataSet, SequentialDataSet
-from pybrain.supervised import BackpropTrainer
-from pybrain.utilities import drawIndex
-from pybrain.rl.learners.directsearch.directsearch import DirectSearchLearner
+from pybrain2.datasets import ReinforcementDataSet, ImportanceDataSet, SequentialDataSet
+from pybrain2.supervised import BackpropTrainer
+from pybrain2.utilities import drawIndex
+from pybrain2.rl.learners.directsearch.directsearch import DirectSearchLearner
 
 
 # TODO: greedy runs: start once in every possible starting state!

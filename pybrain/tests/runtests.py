@@ -88,7 +88,7 @@ def make_test_suite():
         
         # "Magically" import the tests package and its test-modules that we've
         # found
-        test_package_path = 'pybrain.tests.unittests'
+        test_package_path = 'pybrain2.tests.unittests'
         sub_path = os.path.relpath(testdir, top_testdir).split(os.sep)
         test_package_path = '.'.join([test_package_path]+sub_path)
         test_package = __import__(test_package_path, fromlist=module_names)

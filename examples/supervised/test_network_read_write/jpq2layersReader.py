@@ -1,10 +1,10 @@
 from __future__ import print_function
 
-from pybrain.structure import FeedForwardNetwork
-from pybrain.tools.validation    import ModuleValidator,Validator
-from pybrain.utilities           import percentError
-from pybrain.tools.customxml     import NetworkReader
-from pybrain.datasets            import SupervisedDataSet
+from pybrain2.structure import FeedForwardNetwork
+from pybrain2.tools.validation    import ModuleValidator,Validator
+from pybrain2.utilities           import percentError
+from pybrain2.tools.customxml     import NetworkReader
+from pybrain2.datasets            import SupervisedDataSet
 import numpy
 import pylab
 import os

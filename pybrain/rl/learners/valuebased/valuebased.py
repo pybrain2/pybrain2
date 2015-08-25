@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.learners.learner import ExploringLearner, DataSetLearner, EpisodicLearner
-from pybrain.rl.explorers.discrete.egreedy import EpsilonGreedyExplorer
+from pybrain2.rl.learners.learner import ExploringLearner, DataSetLearner, EpisodicLearner
+from pybrain2.rl.explorers.discrete.egreedy import EpsilonGreedyExplorer
 
 
 class ValueBasedLearner(ExploringLearner, DataSetLearner, EpisodicLearner):

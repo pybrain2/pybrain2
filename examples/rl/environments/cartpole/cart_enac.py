@@ -9,12 +9,12 @@
 __author__ = "Thomas Rueckstiess, Frank Sehnke"
 
 
-from pybrain.tools.example_tools import ExTools
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.environments.cartpole import CartPoleEnvironment, BalanceTask
-from pybrain.rl.agents import LearningAgent
-from pybrain.rl.learners import ENAC
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.example_tools import ExTools
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.environments.cartpole import CartPoleEnvironment, BalanceTask
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.rl.learners import ENAC
+from pybrain2.rl.experiments import EpisodicExperiment
 
 batch=50 #number of samples per learning step
 prnts=4 #number of learning steps after results are printed

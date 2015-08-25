@@ -13,10 +13,10 @@ try:
     from arac.pybrainbridge import _FeedForwardNetwork #@UnresolvedImport
 except:
     _FeedForwardNetwork = object
-from pybrain.structure.modules.mdrnnlayer import MdrnnLayer
-from pybrain.structure import LinearLayer
-from pybrain.structure.connections.permutation import PermutationConnection
-from pybrain.utilities import crossproduct, permute, permuteToBlocks
+from pybrain2.structure.modules.mdrnnlayer import MdrnnLayer
+from pybrain2.structure import LinearLayer
+from pybrain2.structure.connections.permutation import PermutationConnection
+from pybrain2.utilities import crossproduct, permute, permuteToBlocks
 
 
 class _Mdrnn(_FeedForwardNetwork):

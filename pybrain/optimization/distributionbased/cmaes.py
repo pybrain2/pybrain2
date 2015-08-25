@@ -7,7 +7,7 @@ from numpy import exp, diag, power, ravel
 from numpy.linalg import eig, norm
 from numpy.random import randn
 
-from pybrain.optimization.optimizer import ContinuousOptimizer
+from pybrain2.optimization.optimizer import ContinuousOptimizer
 
 
 class CMAES(ContinuousOptimizer):

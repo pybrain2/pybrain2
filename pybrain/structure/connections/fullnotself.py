@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 from scipy import reshape, dot, outer, eye
-from pybrain.structure.connections import FullConnection
+from pybrain2.structure.connections import FullConnection
 
 
 class FullNotSelfConnection(FullConnection):

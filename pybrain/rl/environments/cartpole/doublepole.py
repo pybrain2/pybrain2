@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from .cartpole import CartPoleEnvironment
-from pybrain.rl.environments import Environment
+from pybrain2.rl.environments import Environment
 
 
 class DoublePoleEnvironment(Environment):

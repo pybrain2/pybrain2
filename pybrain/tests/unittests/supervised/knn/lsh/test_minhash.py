@@ -4,13 +4,13 @@
 Internal Tests:
 
     >>> from scipy import array
-    >>> from pybrain.supervised.knn.lsh.minhash import arrayPermutation
+    >>> from pybrain2.supervised.knn.lsh.minhash import arrayPermutation
     >>> permutation = array([4, 3, 2, 1, 0])
     >>> permute = arrayPermutation(permutation)
     >>> permute(array([5, 2, 3, 1, 4]))
     array([4, 1, 3, 2, 5])
 
-    >>> from pybrain.supervised.knn.lsh.minhash import jacardCoefficient
+    >>> from pybrain2.supervised.knn.lsh.minhash import jacardCoefficient
     >>> a = array([0, 0, 0, 1])
     >>> b = array([1, 1, 1, 1])
     >>> c = array([1, 1, 0, 1])
@@ -27,7 +27,7 @@ Internal Tests:
 
 Example Usage:
 
-    >>> from pybrain.supervised.knn.lsh.minhash import MinHash
+    >>> from pybrain2.supervised.knn.lsh.minhash import MinHash
 
 We need to specify the length of the inputs and how many permutations should be
 used:
@@ -79,7 +79,7 @@ Let's make a hash that returns nothing
 
 """
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

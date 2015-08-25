@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.tests import epsilonCheck
+    >>> from pybrain2.tests import epsilonCheck
     >>> n = buildSubsamplingNetwork()
 
 All those inputs will be averaged in two blocks (first 4 and last 2),
@@ -20,10 +20,10 @@ so they should produce the same outputs.
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
-from pybrain.structure.connections.subsampling import SubsamplingConnection
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.connections.subsampling import SubsamplingConnection
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
 from pybrain import LinearLayer
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSubsamplingNetwork():

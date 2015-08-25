@@ -3,11 +3,11 @@ __author__ = 'Thomas Rueckstiess and Tom Schaul'
 from scipy import pi, dot, array, ones, exp
 from scipy.linalg import norm
 
-from pybrain.rl.environments.cartpole.nonmarkovpole import NonMarkovPoleEnvironment
-from pybrain.rl.environments.cartpole.doublepole import DoublePoleEnvironment
-from pybrain.rl.environments import EpisodicTask
+from pybrain2.rl.environments.cartpole.nonmarkovpole import NonMarkovPoleEnvironment
+from pybrain2.rl.environments.cartpole.doublepole import DoublePoleEnvironment
+from pybrain2.rl.environments import EpisodicTask
 from .cartpole import CartPoleEnvironment
-from pybrain.utilities import crossproduct
+from pybrain2.utilities import crossproduct
         
 
 class BalanceTask(EpisodicTask):

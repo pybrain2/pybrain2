@@ -1,7 +1,7 @@
 __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
-from pybrain.rl.explorers.explorer import Explorer
-# from pybrain.rl.learners.valuebased.interface import ActionValueInterface
+from pybrain2.rl.explorers.explorer import Explorer
+# from pybrain2.rl.learners.valuebased.interface import ActionValueInterface
 
 class DiscreteExplorer(Explorer):
     """ Discrete explorers choose one of the available actions from the

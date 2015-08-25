@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Michael Isik'
 
-from pybrain.tools.validation import CrossValidator
+from pybrain2.tools.validation import CrossValidator
 from numpy import linspace, append, ones, zeros, array, where, apply_along_axis
 import copy
 

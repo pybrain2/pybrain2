@@ -4,7 +4,7 @@ __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 __version__ = '$Id$'
 
 
-from pybrain.structure import (LinearLayer, SigmoidLayer, FullConnection,
+from pybrain2.structure import (LinearLayer, SigmoidLayer, FullConnection,
                                BiasUnit, FeedForwardNetwork)
 
 

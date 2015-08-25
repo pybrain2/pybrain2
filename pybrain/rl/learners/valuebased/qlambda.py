@@ -1,6 +1,6 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.learners.valuebased.valuebased import ValueBasedLearner
+from pybrain2.rl.learners.valuebased.valuebased import ValueBasedLearner
 
 
 class QLambda(ValueBasedLearner):

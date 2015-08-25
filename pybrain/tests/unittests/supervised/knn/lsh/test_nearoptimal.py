@@ -3,7 +3,7 @@
 """
     >>> from scipy import array
     >>> from math import sqrt
-    >>> from pybrain.tests import epsilonCheck
+    >>> from pybrain2.tests import epsilonCheck
 
 Internal Tests:
 ====================
@@ -115,8 +115,8 @@ Example Usage:
 
 """
 
-from pybrain.tests import runModuleTestSuite
-from pybrain.supervised.knn.lsh import nearoptimal
+from pybrain2.tests import runModuleTestSuite
+from pybrain2.supervised.knn.lsh import nearoptimal
 
 if __name__ == "__main__":
    runModuleTestSuite(__import__('__main__'))

@@ -10,13 +10,13 @@ from scipy import *
 import sys, time
 import pylab
 
-from pybrain.rl.environments.mazes import Maze, MDPMazeTask
-from pybrain.rl.learners.valuebased import ActionValueTable
-from pybrain.rl.agents import LearningAgent
-from pybrain.rl.learners import Q, QLambda, SARSA #@UnusedImport
-from pybrain.rl.explorers import BoltzmannExplorer #@UnusedImport
-from pybrain.rl.experiments import Experiment
-from pybrain.rl.environments import Task
+from pybrain2.rl.environments.mazes import Maze, MDPMazeTask
+from pybrain2.rl.learners.valuebased import ActionValueTable
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.rl.learners import Q, QLambda, SARSA #@UnusedImport
+from pybrain2.rl.explorers import BoltzmannExplorer #@UnusedImport
+from pybrain2.rl.experiments import Experiment
+from pybrain2.rl.environments import Task
 
 
 # create the maze with walls (1)

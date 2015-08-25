@@ -1,6 +1,6 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.environments import Task
+from pybrain2.rl.environments import Task
 from scipy import array
 
 class MDPMazeTask(Task):

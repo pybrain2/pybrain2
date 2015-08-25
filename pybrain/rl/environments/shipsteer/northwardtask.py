@@ -1,6 +1,6 @@
 __author__ = 'Martin Felder, felder@in.tum.de'
 
-from pybrain.rl.environments import EpisodicTask
+from pybrain2.rl.environments import EpisodicTask
 from .shipsteer import ShipSteeringEnvironment
 
 

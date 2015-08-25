@@ -2,9 +2,9 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization.optimizer import BlackBoxOptimizer, TopologyOptimizer
-from pybrain.optimization.hillclimber import HillClimber
-from pybrain.structure.evolvables.maskedparameters import MaskedParameters
+from pybrain2.optimization.optimizer import BlackBoxOptimizer, TopologyOptimizer
+from pybrain2.optimization.hillclimber import HillClimber
+from pybrain2.structure.evolvables.maskedparameters import MaskedParameters
 
 
 class MemeticSearch(HillClimber, TopologyOptimizer):

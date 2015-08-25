@@ -2,7 +2,7 @@ __author__ = 'Daan Wierstra and Tom Schaul'
 
 from scipy import append, zeros
 
-from pybrain.utilities import abstractMethod, Named
+from pybrain2.utilities import abstractMethod, Named
 
 
 class Module(Named):

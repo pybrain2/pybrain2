@@ -4,7 +4,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from math import sqrt
 
-from pybrain.rl.environments.functions.function import FunctionEnvironment
+from pybrain2.rl.environments.functions.function import FunctionEnvironment
 
 
 class UnboundedFunctionEnvironment(FunctionEnvironment):

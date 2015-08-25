@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Michael Isik'
 
-from pybrain.datasets import SupervisedDataSet
+from pybrain2.datasets import SupervisedDataSet
 
 class SVMData(SupervisedDataSet):
     """ Reads data files in LIBSVM/SVMlight format """

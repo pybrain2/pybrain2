@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.agents.agent import Agent
-from pybrain.datasets import ReinforcementDataSet
+from pybrain2.rl.agents.agent import Agent
+from pybrain2.datasets import ReinforcementDataSet
 
 
 class LoggingAgent(Agent):

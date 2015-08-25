@@ -1,6 +1,6 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.agents.logging import LoggingAgent
+from pybrain2.rl.agents.logging import LoggingAgent
 
 
 class LearningAgent(LoggingAgent):

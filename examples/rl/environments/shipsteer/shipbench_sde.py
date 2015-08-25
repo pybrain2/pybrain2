@@ -19,14 +19,14 @@ import matplotlib
 matplotlib.use('TkAgg')
 #---
 
-from pybrain.rl.environments.shipsteer import ShipSteeringEnvironment
-from pybrain.rl.environments.shipsteer import GoNorthwardTask
-from pybrain.rl.agents import LearningAgent
-from pybrain.rl.learners.directsearch.enac import ENAC
-from pybrain.rl.experiments.episodic import EpisodicExperiment
+from pybrain2.rl.environments.shipsteer import ShipSteeringEnvironment
+from pybrain2.rl.environments.shipsteer import GoNorthwardTask
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.rl.learners.directsearch.enac import ENAC
+from pybrain2.rl.experiments.episodic import EpisodicExperiment
 
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.tools.plotting import MultilinePlotter
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.tools.plotting import MultilinePlotter
 
 from pylab import figure, ion
 from scipy import mean

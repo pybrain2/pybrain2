@@ -8,8 +8,8 @@ __author__ = 'Michael Isik'
 from pylab import plot, show, ion, cla, subplot, title, figlegend, draw
 import numpy
 
-from pybrain.structure.modules.evolinonetwork import EvolinoNetwork
-from pybrain.supervised.trainers.evolino      import EvolinoTrainer
+from pybrain2.structure.modules.evolinonetwork import EvolinoNetwork
+from pybrain2.supervised.trainers.evolino      import EvolinoTrainer
 from lib.data_generator import generateSuperimposedSineData
 
 print()

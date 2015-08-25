@@ -3,7 +3,7 @@ __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 import ode, sys, xode #@UnresolvedImport
 import warnings
 from scipy.linalg import norm
-from pybrain.utilities import Named
+from pybrain2.utilities import Named
 
 class SizeError(Exception):
     def __init__(self, value):

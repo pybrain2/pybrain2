@@ -1,7 +1,7 @@
 """
-    >>> from pybrain.tests.helpers import epsilonCheck
-    >>> from pybrain.tools.functions import tanh
-    >>> from pybrain.utilities import fListToString
+    >>> from pybrain2.tests.helpers import epsilonCheck
+    >>> from pybrain2.tools.functions import tanh
+    >>> from pybrain2.utilities import fListToString
     >>> from .test_peephole_lstm import predictOutcome
     >>> from scipy import arctanh
     >>> from random import random
@@ -51,8 +51,8 @@ List all the states again, explicitly (buffer size is 8 by now).
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
-from pybrain.structure import LinearLayer, IdentityConnection, MDLSTMLayer, RecurrentNetwork
+from pybrain2.tests import runModuleTestSuite
+from pybrain2.structure import LinearLayer, IdentityConnection, MDLSTMLayer, RecurrentNetwork
 
 
 def buildMinimalMDLSTMNetwork():

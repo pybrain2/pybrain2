@@ -1,10 +1,10 @@
 from scipy import r_
 
-from pybrain.rl.learners.valuebased.valuebased import ValueBasedLearner
-from pybrain.datasets import SupervisedDataSet
-from pybrain.supervised.trainers.rprop import RPropMinusTrainer
-from pybrain.supervised.trainers import BackpropTrainer
-from pybrain.utilities import one_to_n
+from pybrain2.rl.learners.valuebased.valuebased import ValueBasedLearner
+from pybrain2.datasets import SupervisedDataSet
+from pybrain2.supervised.trainers.rprop import RPropMinusTrainer
+from pybrain2.supervised.trainers import BackpropTrainer
+from pybrain2.utilities import one_to_n
 
 
 class NFQ(ValueBasedLearner):

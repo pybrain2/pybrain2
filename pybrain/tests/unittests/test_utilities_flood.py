@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.utilities import flood
+    >>> from pybrain2.utilities import flood
 
 The reachable-search can only get to 3 of the points.
 
@@ -20,7 +20,7 @@ If the initial point must be included for it to work:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 def step(x):
     """ A neighbor of x is either 2*x or x+3"""

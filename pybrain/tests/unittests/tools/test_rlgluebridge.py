@@ -1,6 +1,6 @@
 """
 
-    >>> from pybrain.tools.rlgluebridge import adaptAgent
+    >>> from pybrain2.tools.rlgluebridge import adaptAgent
     >>> from rlglue.types import Action as RLGlueAction
     >>> from rlglue.types import Observation as RLGlueObservation
 
@@ -13,9 +13,9 @@ We can access the attributes of the original agent via the held attribute
 `agent`
 
     >>> rlglue_agent
-    <pybrain.tools.rlgluebridge.RlglueAgentAdapter object at ...>
+    <pybrain2.tools.rlgluebridge.RlglueAgentAdapter object at ...>
     >>> type(rlglue_agent)
-    <class 'pybrain.tools.rlgluebridge.RlglueAgentAdapter'>
+    <class 'pybrain2.tools.rlgluebridge.RlglueAgentAdapter'>
 
 Now let's see how the observations, actions and rewards are proxied to the
 inner agent
@@ -64,7 +64,7 @@ And a last step
 Now let's have a look on how we can save statistics of an agent running
 rlglue.
 
-    >>> from pybrain.tools.rlgluebridge import BenchmarkingAgent
+    >>> from pybrain2.tools.rlgluebridge import BenchmarkingAgent
     >>> agent = PseudoPybrainAgent()
     >>> agent = BenchmarkingAgent(agent)
 
@@ -102,8 +102,8 @@ _dependencies = ['rlglue']
 
 from scipy import array
 
-from pybrain.rl.agents import LearningAgent
-from pybrain.tests import runModuleTestSuite
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.tests import runModuleTestSuite
 
 
 class PseudoPybrainAgent(LearningAgent):

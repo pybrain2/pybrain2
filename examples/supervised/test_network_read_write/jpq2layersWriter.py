@@ -1,14 +1,14 @@
 from __future__ import print_function
 
-from pybrain.structure import FeedForwardNetwork
-from pybrain.structure           import LinearLayer, SigmoidLayer
-from pybrain.structure           import BiasUnit,TanhLayer
-from pybrain.structure           import FullConnection
-from pybrain.datasets            import SupervisedDataSet
-from pybrain.supervised.trainers import BackpropTrainer, RPropMinusTrainer
-from pybrain.tools.validation    import ModuleValidator,Validator
-from pybrain.utilities           import percentError
-from pybrain.tools.customxml     import NetworkWriter
+from pybrain2.structure import FeedForwardNetwork
+from pybrain2.structure           import LinearLayer, SigmoidLayer
+from pybrain2.structure           import BiasUnit,TanhLayer
+from pybrain2.structure           import FullConnection
+from pybrain2.datasets            import SupervisedDataSet
+from pybrain2.supervised.trainers import BackpropTrainer, RPropMinusTrainer
+from pybrain2.tools.validation    import ModuleValidator,Validator
+from pybrain2.utilities           import percentError
+from pybrain2.tools.customxml     import NetworkWriter
 import numpy
 import pylab
 import os

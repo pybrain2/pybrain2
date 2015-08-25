@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization.optimizer import ContinuousOptimizer
+from pybrain2.optimization.optimizer import ContinuousOptimizer
 
 
 class DistributionBasedOptimizer(ContinuousOptimizer):

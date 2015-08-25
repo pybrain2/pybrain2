@@ -6,14 +6,14 @@ Build a 2-dimensional BorderSwipingNetwork:
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -25,8 +25,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
 from pybrain import ModuleMesh, LinearLayer
-from pybrain.structure.networks import BorderSwipingNetwork
-from pybrain.tests import runModuleTestSuite
+from pybrain2.structure.networks import BorderSwipingNetwork
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSwipingNetwork(dimensions = 3):

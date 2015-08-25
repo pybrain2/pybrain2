@@ -2,7 +2,7 @@
 
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.utilities import abstractMethod
+from pybrain2.utilities import abstractMethod
 import threading
 
 class Renderer(threading.Thread):

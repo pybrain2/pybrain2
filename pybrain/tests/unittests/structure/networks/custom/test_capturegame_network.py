@@ -1,6 +1,6 @@
 """
 Build a CaptureGameNetwork with LSTM cells
-    >>> from pybrain.structure.networks.custom import CaptureGameNetwork
+    >>> from pybrain2.structure.networks.custom import CaptureGameNetwork
     >>> from pybrain import MDLSTMLayer
     >>> size = 2
     >>> n = CaptureGameNetwork(size = size, componentclass = MDLSTMLayer, hsize = 1, peepholes = False)
@@ -26,7 +26,7 @@ Check some of the connections dimensionalities
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -34,7 +34,7 @@ Try writing it to an xml file, reread it and determine if it looks the same:
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
@@ -43,7 +43,7 @@ Check its gradient:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

@@ -26,14 +26,14 @@
 __author__ = "Frank Sehnke"
 __version__ = '$Id$' 
 
-from pybrain.tools.example_tools import ExTools
-from pybrain.rl.environments.ode import CCRLEnvironment
-from pybrain.rl.environments.ode.tasks import CCRLPlateTask
-from pybrain.structure.modules.tanhlayer import TanhLayer
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.agents import OptimizationAgent
-from pybrain.optimization import PGPE
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.example_tools import ExTools
+from pybrain2.rl.environments.ode import CCRLEnvironment
+from pybrain2.rl.environments.ode.tasks import CCRLPlateTask
+from pybrain2.structure.modules.tanhlayer import TanhLayer
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.agents import OptimizationAgent
+from pybrain2.optimization import PGPE
+from pybrain2.rl.experiments import EpisodicExperiment
 
 hiddenUnits = 10
 batch=1 #number of samples per learning step

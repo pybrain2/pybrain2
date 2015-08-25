@@ -8,10 +8,10 @@ from numpy import sort
 from scipy.stats import norm
 from copy import deepcopy
 
-from pybrain.utilities import drawIndex, fListToString
-from pybrain.tools.functions import multivariateNormalPdf
-from pybrain.tools.rankingfunctions import TopLinearRanking
-from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
+from pybrain2.utilities import drawIndex, fListToString
+from pybrain2.tools.functions import multivariateNormalPdf
+from pybrain2.tools.rankingfunctions import TopLinearRanking
+from pybrain2.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
 
 
 class FEM(DistributionBasedOptimizer):

@@ -12,8 +12,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 use-cases for different kinds of black-box learning algorithms. 
 """
 
-from pybrain.structure.networks.network import Network
-from pybrain.optimization import * #@UnusedWildImport
+from pybrain2.structure.networks.network import Network
+from pybrain2.optimization import * #@UnusedWildImport
 
 """ The problem we would like to solve can be anything that 
 has something like a fitness function. 
@@ -26,15 +26,15 @@ if False:
     """ Simple function optimization:
     here the parameters are learned directly. """    
     from scipy import randn
-    from pybrain.rl.environments.functions import SphereFunction
+    from pybrain2.rl.environments.functions import SphereFunction
     thetask = SphereFunction(3)
     theparams = randn(3)
     
 else:
     """ Simple pole-balancing task:
     here we learn the weights of a neural network controller."""   
-    from pybrain.tools.shortcuts import buildNetwork
-    from pybrain.rl.environments.cartpole.balancetask import BalanceTask
+    from pybrain2.tools.shortcuts import buildNetwork
+    from pybrain2.rl.environments.cartpole.balancetask import BalanceTask
     thetask = BalanceTask()
     theparams = buildNetwork(thetask.outdim, thetask.indim, bias=False)    
     

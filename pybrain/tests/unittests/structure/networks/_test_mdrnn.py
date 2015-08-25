@@ -16,8 +16,8 @@
 """
 
 
-from pybrain.structure.networks.mdrnn import _MultiDirectionalMdrnn, _Mdrnn #@UnusedImport
-from pybrain.tests import runModuleTestSuite
+from pybrain2.structure.networks.mdrnn import _MultiDirectionalMdrnn, _Mdrnn #@UnusedImport
+from pybrain2.tests import runModuleTestSuite
 
 
 if __name__ == "__main__":

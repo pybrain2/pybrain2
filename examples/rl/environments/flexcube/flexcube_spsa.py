@@ -30,13 +30,13 @@
 __author__ = "Frank Sehnke"
 __version__ = '$Id$' 
 
-from pybrain.tools.example_tools import ExTools
-from pybrain.structure.modules.tanhlayer import TanhLayer
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.environments.flexcube import FlexCubeEnvironment, WalkTask
-from pybrain.rl.agents import OptimizationAgent
-from pybrain.optimization import SimpleSPSA 
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.example_tools import ExTools
+from pybrain2.structure.modules.tanhlayer import TanhLayer
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.environments.flexcube import FlexCubeEnvironment, WalkTask
+from pybrain2.rl.agents import OptimizationAgent
+from pybrain2.optimization import SimpleSPSA 
+from pybrain2.rl.experiments import EpisodicExperiment
 
 hiddenUnits = 4
 batch=2 #number of samples per learning step

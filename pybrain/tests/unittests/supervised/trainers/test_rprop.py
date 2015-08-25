@@ -1,7 +1,7 @@
 """
-    >>> from pybrain.tools.shortcuts     import buildNetwork
-    >>> from pybrain.supervised.trainers import BackpropTrainer, RPropMinusTrainer
-    >>> from pybrain.datasets import SupervisedDataSet, ImportanceDataSet
+    >>> from pybrain2.tools.shortcuts     import buildNetwork
+    >>> from pybrain2.supervised.trainers import BackpropTrainer, RPropMinusTrainer
+    >>> from pybrain2.datasets import SupervisedDataSet, ImportanceDataSet
     >>> from scipy import random, array
 
 Initialize random number generator
@@ -44,7 +44,7 @@ Now the same for RPROP
 __author__ = 'Martin Felder, felder@in.tum.de'
 
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

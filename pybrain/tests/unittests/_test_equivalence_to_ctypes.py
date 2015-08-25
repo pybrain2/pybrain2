@@ -1,6 +1,6 @@
 """
 
-    >>> from pybrain.tools.shortcuts import buildNetwork
+    >>> from pybrain2.tools.shortcuts import buildNetwork
     >>> from test_recurrent_network import buildRecurrentNetwork
     >>> from test_peephole_lstm import buildMinimalLSTMNetwork
     >>> from test_peephole_mdlstm import buildMinimalMDLSTMNetwork
@@ -28,7 +28,7 @@ A lot of layers
     True
 
 Nonstandard components
-    >>> from pybrain.structure import TanhLayer
+    >>> from pybrain2.structure import TanhLayer
     >>> net = buildNetwork(2,3,2, bias = True, outclass = TanhLayer)
     >>> testEquivalence(net)
     True
@@ -95,8 +95,8 @@ TODO:
 __author__ = 'Tom Schaul, tom@idsia.ch'
 _dependencies = ['arac']
 
-from pybrain.tests.helpers import buildAppropriateDataset, epsilonCheck
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests.helpers import buildAppropriateDataset, epsilonCheck
+from pybrain2.tests import runModuleTestSuite
 
 def testEquivalence(net):
     cnet = net.convertToFastNetwork()

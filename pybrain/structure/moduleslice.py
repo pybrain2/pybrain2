@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import Named
+from pybrain2.utilities import Named
 
 
 class ModuleSlice(Named):

@@ -3,10 +3,10 @@
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tools.plotting.fitnesslandscapes import FitnessPlotter
-from pybrain.rl.environments.functions.multimodal import BraninFunction,\
+from pybrain2.tools.plotting.fitnesslandscapes import FitnessPlotter
+from pybrain2.rl.environments.functions.multimodal import BraninFunction,\
     RastriginFunction
-from pybrain.rl.environments.functions.unimodal import RosenbrockFunction,\
+from pybrain2.rl.environments.functions.unimodal import RosenbrockFunction,\
     GlasmachersFunction
 import pylab
 

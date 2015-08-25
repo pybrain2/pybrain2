@@ -37,14 +37,14 @@ Verify everything is still fine after reset
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -55,10 +55,10 @@ Try writing it to an xml file, reread it and determine if it looks the same:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure import RecurrentNetwork
+from pybrain2.structure import RecurrentNetwork
 from pybrain import LinearLayer, FullConnection
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildMixedNestedNetwork():

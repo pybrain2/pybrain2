@@ -7,11 +7,11 @@ import scipy
 import logging
 from itertools import chain
 
-from pybrain.structure.moduleslice import ModuleSlice
-from pybrain.structure.modules.module import Module
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.structure.connections.shared import SharedConnection
-from pybrain.structure.evolvables.evolvable import Evolvable
+from pybrain2.structure.moduleslice import ModuleSlice
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.connections.shared import SharedConnection
+from pybrain2.structure.evolvables.evolvable import Evolvable
 
 
 class NetworkConstructionException(Exception):
@@ -275,7 +275,7 @@ class Network(Module, ParameterContainer):
         """ Attempt to transform the network into a fast network. If fast networks are not available,
         or the network cannot be converted, it returns None. """
 
-        from pybrain.structure.networks import FeedForwardNetwork, RecurrentNetwork
+        from pybrain2.structure.networks import FeedForwardNetwork, RecurrentNetwork
         try:
             from arac.pybrainbridge import _RecurrentNetwork, _FeedForwardNetwork #@UnresolvedImport
         except:

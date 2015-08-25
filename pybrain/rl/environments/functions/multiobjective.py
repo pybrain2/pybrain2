@@ -2,8 +2,8 @@
 Implemented according to the classical reference paper of Deb et al. (Evolutionary Computation 2002) """
 
 from scipy import array, exp, sqrt, sin, cos, power, pi, arctan, ndarray
-from pybrain.rl.environments.functions.function import FunctionEnvironment
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.rl.environments.functions.function import FunctionEnvironment
+from pybrain2.structure.parametercontainer import ParameterContainer
 
 
 __author__ = 'Tom Schaul, tom@idsia.ch'

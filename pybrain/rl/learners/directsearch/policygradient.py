@@ -1,13 +1,13 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.learners.directsearch.directsearch import DirectSearchLearner
-from pybrain.rl.learners.learner import DataSetLearner, ExploringLearner
-from pybrain.utilities import abstractMethod
-from pybrain.auxiliary import GradientDescent
-from pybrain.rl.explorers.continuous.normal import NormalExplorer
-from pybrain.datasets.dataset import DataSet
-from pybrain.structure.networks import FeedForwardNetwork
-from pybrain.structure.connections import IdentityConnection
+from pybrain2.rl.learners.directsearch.directsearch import DirectSearchLearner
+from pybrain2.rl.learners.learner import DataSetLearner, ExploringLearner
+from pybrain2.utilities import abstractMethod
+from pybrain2.auxiliary import GradientDescent
+from pybrain2.rl.explorers.continuous.normal import NormalExplorer
+from pybrain2.datasets.dataset import DataSet
+from pybrain2.structure.networks import FeedForwardNetwork
+from pybrain2.structure.connections import IdentityConnection
 
 
 class LoglhDataSet(DataSet):

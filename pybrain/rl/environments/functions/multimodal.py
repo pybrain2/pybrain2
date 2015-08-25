@@ -9,8 +9,8 @@ from scipy.linalg import orth
 from math import pi
 from random import shuffle
 
-from pybrain.rl.environments.functions.function import FunctionEnvironment
-from pybrain.rl.environments.functions.transformations import penalize, generateDiags
+from pybrain2.rl.environments.functions.function import FunctionEnvironment
+from pybrain2.rl.environments.functions.transformations import penalize, generateDiags
 
 
 class MultiModalFunction(FunctionEnvironment):

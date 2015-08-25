@@ -13,7 +13,7 @@ Build a simple lstm network with peepholes:
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
@@ -31,7 +31,7 @@ Check its gradient:
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -45,9 +45,9 @@ Try writing it to an xml file, reread it and determine if it looks the same:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.networks.recurrent import RecurrentNetwork
+from pybrain2.structure.networks.recurrent import RecurrentNetwork
 from pybrain import LinearLayer, FullConnection, LSTMLayer, BiasUnit
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSimpleLSTMNetwork(peepholes = False):

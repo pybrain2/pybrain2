@@ -43,7 +43,7 @@ class AdaptiveResampler(object):
 
     
 def testnes():
-    from pybrain.optimization.distributionbased.xnes import XNES
+    from pybrain2.optimization.distributionbased.xnes import XNES
     from scipy import ones
     from random import gauss    
     import pylab  

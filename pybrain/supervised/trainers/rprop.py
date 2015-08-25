@@ -2,7 +2,7 @@ from __future__ import print_function
 
 from scipy import sqrt
 
-from pybrain.supervised.trainers import BackpropTrainer
+from pybrain2.supervised.trainers import BackpropTrainer
 
 # $Id$
 __author__ = 'Martin Felder'

@@ -7,11 +7,11 @@ __version__ = '$Id$'
 
 from pylab import plot, hold, show
 from scipy import sin, rand, arange
-from pybrain.datasets            import SequenceClassificationDataSet
-from pybrain.structure.modules   import LSTMLayer, SoftmaxLayer
-from pybrain.supervised          import RPropMinusTrainer
-from pybrain.tools.validation    import testOnSequenceData
-from pybrain.tools.shortcuts     import buildNetwork
+from pybrain2.datasets            import SequenceClassificationDataSet
+from pybrain2.structure.modules   import LSTMLayer, SoftmaxLayer
+from pybrain2.supervised          import RPropMinusTrainer
+from pybrain2.tools.validation    import testOnSequenceData
+from pybrain2.tools.shortcuts     import buildNetwork
 
 from .datasets import generateNoisySines
 

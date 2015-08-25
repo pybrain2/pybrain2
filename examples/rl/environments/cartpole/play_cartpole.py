@@ -11,10 +11,10 @@ from __future__ import print_function
 ###########################################################################
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.environments.cartpole import CartPoleEnvironment, CartPoleRenderer, BalanceTask
-from pybrain.rl.agents.learning import LearningAgent
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.environments.cartpole import CartPoleEnvironment, CartPoleRenderer, BalanceTask
+from pybrain2.rl.agents.learning import LearningAgent
+from pybrain2.rl.experiments import EpisodicExperiment
 from scipy import mean
 import sys
 

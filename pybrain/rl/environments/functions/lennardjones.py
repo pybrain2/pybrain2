@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch, and Daan Wierstra'
 
 
-from pybrain.rl.environments.functions.multimodal import MultiModalFunction
+from pybrain2.rl.environments.functions.multimodal import MultiModalFunction
 from scipy import sqrt, tile, swapaxes, ravel, eye, randn
 import scipy 
 

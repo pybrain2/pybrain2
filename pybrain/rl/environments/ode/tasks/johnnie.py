@@ -1,7 +1,7 @@
 __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 
-from pybrain.rl.environments import EpisodicTask
-from pybrain.rl.environments.ode.sensors import * #@UnusedWildImport
+from pybrain2.rl.environments import EpisodicTask
+from pybrain2.rl.environments.ode.sensors import * #@UnusedWildImport
 from scipy import  ones, tanh, clip
 
 #Basic class for all Johnnie tasks

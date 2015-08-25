@@ -1,5 +1,5 @@
-from pybrain.structure.connections.full import FullConnection
-from pybrain.structure.connections.identity import IdentityConnection
-from pybrain.structure.connections.shared import SharedFullConnection, MotherConnection, SharedConnection
-from pybrain.structure.connections.linear import LinearConnection
-from pybrain.structure.connections.fullnotself import FullNotSelfConnection
+from pybrain2.structure.connections.full import FullConnection
+from pybrain2.structure.connections.identity import IdentityConnection
+from pybrain2.structure.connections.shared import SharedFullConnection, MotherConnection, SharedConnection
+from pybrain2.structure.connections.linear import LinearConnection
+from pybrain2.structure.connections.fullnotself import FullNotSelfConnection

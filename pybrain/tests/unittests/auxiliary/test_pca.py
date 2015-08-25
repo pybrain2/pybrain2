@@ -2,7 +2,7 @@
 
     >>> from scipy import array, matrix
 
-    >>> from pybrain.auxiliary.pca import makeCentered
+    >>> from pybrain2.auxiliary.pca import makeCentered
 
     >>> data = array([[2.5, 2.4],
     ...               [0.5, 0.7],
@@ -31,7 +31,7 @@
 Tests for regular PCA
 ---------------------
 
-    >>> from pybrain.auxiliary.pca import pca, reduceDim
+    >>> from pybrain2.auxiliary.pca import pca, reduceDim
 
     >>> pca(data, 1)
     array([[-0.6778734 , -0.73517866]])
@@ -111,7 +111,7 @@ Tests for regular PCA
 Tests for probabilistic PCA
 ---------------------------
 
-    >>> from pybrain.auxiliary.pca import pPca
+    >>> from pybrain2.auxiliary.pca import pPca
 
     >>> pc = pPca(data, 1)
     >>> x, y = pc[0, 0], pc[0, 1]
@@ -123,7 +123,7 @@ Tests for probabilistic PCA
 
 __author__ = 'Justin Bayer, bayerj@in.tum.de'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

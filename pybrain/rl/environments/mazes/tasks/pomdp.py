@@ -2,8 +2,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import ndarray
 
-from pybrain.rl.environments import EpisodicTask
-from pybrain.utilities import Named, drawIndex
+from pybrain2.rl.environments import EpisodicTask
+from pybrain2.utilities import Named, drawIndex
 
 
 class POMDPTask(EpisodicTask, Named):

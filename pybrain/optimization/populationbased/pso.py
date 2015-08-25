@@ -4,7 +4,7 @@ __author__ = ('Julian Togelius, julian@idsia.ch',
 import scipy
 import logging
 
-from pybrain.optimization.optimizer import ContinuousOptimizer
+from pybrain2.optimization.optimizer import ContinuousOptimizer
 
 
 def fullyConnected(lst):

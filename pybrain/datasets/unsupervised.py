@@ -4,7 +4,7 @@ __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 __version__ = '$Id$'
 
 
-from pybrain.datasets.dataset import DataSet
+from pybrain2.datasets.dataset import DataSet
 
 
 class UnsupervisedDataSet(DataSet):

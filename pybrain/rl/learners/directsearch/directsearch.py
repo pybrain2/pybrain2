@@ -6,7 +6,7 @@
 
 __author__ = 'Tom Schaul and Thomas Rueckstiess, tom@idsia.ch, ruecksti@in.tum.de'
 
-from pybrain.rl.learners.learner import Learner, EpisodicLearner
+from pybrain2.rl.learners.learner import Learner, EpisodicLearner
 
 
 class DirectSearchLearner(Learner):

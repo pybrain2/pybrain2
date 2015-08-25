@@ -7,7 +7,7 @@ __author__ = ('Christian Osendorfer, osendorf@in.tum.de; '
 
 from scipy import random
 
-from pybrain.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
 
 
 class SampleLayer(NeuronLayer):

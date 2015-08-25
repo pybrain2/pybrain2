@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import iterCombinations, Named
-from pybrain.structure.moduleslice import ModuleSlice
+from pybrain2.utilities import iterCombinations, Named
+from pybrain2.structure.moduleslice import ModuleSlice
 from functools import reduce
 
 

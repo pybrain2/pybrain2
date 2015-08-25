@@ -3,10 +3,10 @@ from __future__ import print_function
 from scipy import dot, argmax
 from random import shuffle
 from math import isnan
-from pybrain.supervised.trainers.trainer import Trainer
-from pybrain.utilities import fListToString
-from pybrain.auxiliary import GradientDescent
-from pybrain.tools.functions import abs_error
+from pybrain2.supervised.trainers.trainer import Trainer
+from pybrain2.utilities import fListToString
+from pybrain2.auxiliary import GradientDescent
+from pybrain2.tools.functions import abs_error
 
 __author__ = 'Daan Wierstra and Tom Schaul'
 

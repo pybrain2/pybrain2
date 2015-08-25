@@ -6,8 +6,8 @@ from __future__ import print_function
 __author__ = 'Tom Schaul, tom@idsia.ch and Daan Wierstra'
 
 from datasets import AnBnCnDataSet #@UnresolvedImport
-from pybrain.supervised import BackpropTrainer
-from pybrain.structure import FullConnection, RecurrentNetwork, TanhLayer, LinearLayer, BiasUnit
+from pybrain2.supervised import BackpropTrainer
+from pybrain2.structure import FullConnection, RecurrentNetwork, TanhLayer, LinearLayer, BiasUnit
 
 
 def testTraining():

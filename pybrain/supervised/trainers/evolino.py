@@ -4,13 +4,13 @@ __author__ = 'Michael Isik'
 
 from numpy import Infinity
 
-from pybrain.supervised.trainers.trainer import Trainer
-from pybrain.supervised.evolino.population import EvolinoPopulation
-from pybrain.supervised.evolino.individual import EvolinoSubIndividual
-from pybrain.supervised.evolino.filter import EvolinoEvaluation, EvolinoSelection, EvolinoReproduction, EvolinoBurstMutation
-from pybrain.supervised.evolino.gfilter import Randomization
-from pybrain.supervised.evolino.variate import CauchyVariate
-from pybrain.tools.kwargsprocessor import KWArgsProcessor
+from pybrain2.supervised.trainers.trainer import Trainer
+from pybrain2.supervised.evolino.population import EvolinoPopulation
+from pybrain2.supervised.evolino.individual import EvolinoSubIndividual
+from pybrain2.supervised.evolino.filter import EvolinoEvaluation, EvolinoSelection, EvolinoReproduction, EvolinoBurstMutation
+from pybrain2.supervised.evolino.gfilter import Randomization
+from pybrain2.supervised.evolino.variate import CauchyVariate
+from pybrain2.tools.kwargsprocessor import KWArgsProcessor
 
 
 class EvolinoTrainer(Trainer):

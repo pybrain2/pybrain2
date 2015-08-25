@@ -1,7 +1,7 @@
 """
 
-    >>> from pybrain.tools.functions import tanh
-    >>> from pybrain.utilities import fListToString
+    >>> from pybrain2.tools.functions import tanh
+    >>> from pybrain2.utilities import fListToString
     >>> from scipy import arctanh
     >>> from random import random
 
@@ -51,9 +51,9 @@ List all the states again, explicitly (buffer size is 8 by now).
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
-from pybrain.structure import LinearLayer, IdentityConnection, LSTMLayer, RecurrentNetwork
-from pybrain.tests.helpers import epsilonCheck
+from pybrain2.tests import runModuleTestSuite
+from pybrain2.structure import LinearLayer, IdentityConnection, LSTMLayer, RecurrentNetwork
+from pybrain2.tests.helpers import epsilonCheck
 
 def buildMinimalLSTMNetwork():
     N = RecurrentNetwork('simpleLstmNet')

@@ -6,14 +6,14 @@ Illustrating how to use optimization algorithms in a reinforcement learning fram
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import fListToString
-from pybrain.rl.environments.cartpole.balancetask import BalanceTask
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.optimization import HillClimber, CMAES #@UnusedImport
-# from pybrain.rl.learners.continuous.policygradients import ENAC
-# from pybrain.rl.agents.learning import LearningAgent
-from pybrain.rl.agents import OptimizationAgent
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.utilities import fListToString
+from pybrain2.rl.environments.cartpole.balancetask import BalanceTask
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.optimization import HillClimber, CMAES #@UnusedImport
+# from pybrain2.rl.learners.continuous.policygradients import ENAC
+# from pybrain2.rl.agents.learning import LearningAgent
+from pybrain2.rl.agents import OptimizationAgent
+from pybrain2.rl.experiments import EpisodicExperiment
 
 
 # any episodic task

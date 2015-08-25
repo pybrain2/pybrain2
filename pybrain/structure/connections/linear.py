@@ -1,8 +1,8 @@
 __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 
 
-from pybrain.structure.connections.connection import Connection
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.connections.connection import Connection
+from pybrain2.structure.parametercontainer import ParameterContainer
 
 
 class LinearConnection(Connection, ParameterContainer):
@@ -11,7 +11,7 @@ class LinearConnection(Connection, ParameterContainer):
     with a parameter and adds it to the input of the outmodule.
 
     FIXME: fix these failing doctests:
-    >>> from pybrain.structure.modules import LinearLayer
+    >>> from pybrain2.structure.modules import LinearLayer
     >>> inmod, outmod = LinearLayer(1), LinearLayer(1)
     >>> isinstance(LinearConnection(inmod,outmod), Connection)
     True

@@ -1,8 +1,8 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 
-from pybrain.structure.modules.module import Module
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.parametercontainer import ParameterContainer
 
 class Table(Module, ParameterContainer):
     """ implements a simple 2D table with dimensions rows x columns,

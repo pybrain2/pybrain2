@@ -34,7 +34,7 @@ Note: a task model combined with a policy is again a transition matrix ("collaps
 from scipy import dot, zeros, zeros_like, ones, mean, array, ravel, rand
 from numpy.matlib import repmat
 
-from pybrain.utilities import all_argmax
+from pybrain2.utilities import all_argmax
 
 
 def trueValues(T, R, discountFactor):

@@ -4,8 +4,8 @@ __author__ = 'Tom Schaul, Tobias Glasmachers'
 
 from scipy import dot, array, randn,  exp, floor, log, sqrt, ones, multiply, log2
 
-from pybrain.tools.rankingfunctions import HansenRanking
-from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
+from pybrain2.tools.rankingfunctions import HansenRanking
+from pybrain2.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
 
 
 
@@ -175,7 +175,7 @@ class Rank1NES(DistributionBasedOptimizer):
     
 def test():
     """ Rank-1 NEX easily solves high-dimensional Rosenbrock functions. """
-    from pybrain.rl.environments.functions.unimodal import RosenbrockFunction
+    from pybrain2.rl.environments.functions.unimodal import RosenbrockFunction
     dim = 40
     f = RosenbrockFunction(dim)
     x0 = -ones(dim)    

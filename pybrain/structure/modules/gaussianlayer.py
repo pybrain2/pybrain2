@@ -1,9 +1,9 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 from scipy import random
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.tools.functions import expln, explnPrime
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.tools.functions import expln, explnPrime
+from pybrain2.structure.parametercontainer import ParameterContainer
 
 
 class GaussianLayer(NeuronLayer, ParameterContainer):

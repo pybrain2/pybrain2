@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.twoplayergames.gomoku import GomokuGame
+from pybrain2.rl.environments.twoplayergames.gomoku import GomokuGame
 
 
 class PenteGame(GomokuGame):

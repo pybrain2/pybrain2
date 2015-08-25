@@ -1,12 +1,12 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.utilities import abstractMethod
-from pybrain.structure.modules import Table, Module, TanhLayer, LinearLayer, BiasUnit
-from pybrain.structure.connections import FullConnection
-from pybrain.structure.networks import FeedForwardNetwork
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.utilities import one_to_n
+from pybrain2.utilities import abstractMethod
+from pybrain2.structure.modules import Table, Module, TanhLayer, LinearLayer, BiasUnit
+from pybrain2.structure.connections import FullConnection
+from pybrain2.structure.networks import FeedForwardNetwork
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.utilities import one_to_n
 
 from scipy import argmax, array, r_, asarray, where
 from random import choice

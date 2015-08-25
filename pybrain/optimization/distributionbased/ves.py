@@ -5,10 +5,10 @@ __author__ = 'Daan Wierstra and Tom Schaul'
 from scipy import eye, multiply, ones, dot, array, outer, rand, zeros, diag, randn, exp
 from scipy.linalg import cholesky, inv, det
 
-from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
-from pybrain.tools.rankingfunctions import TopLinearRanking
-from pybrain.utilities import flat2triu, triu2flat
-from pybrain.auxiliary import importanceMixing
+from pybrain2.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
+from pybrain2.tools.rankingfunctions import TopLinearRanking
+from pybrain2.utilities import flat2triu, triu2flat
+from pybrain2.auxiliary import importanceMixing
 
 
 class VanillaGradientEvolutionStrategies(DistributionBasedOptimizer):

@@ -3,10 +3,10 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from pylab import figure, savefig, imshow, axes, axis, cm, show
 from scipy import array, amin, amax, ndarray, reshape
 
-from pybrain.structure.networks import Network
-from pybrain.tools.customxml import NetworkReader
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.structure.connections.connection import Connection
+from pybrain2.structure.networks import Network
+from pybrain2.tools.customxml import NetworkReader
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.connections.connection import Connection
 
 
 class ColorMap:

@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
-from pybrain.utilities import subDict, dictCombinations
+from pybrain2.utilities import subDict, dictCombinations
 import pylab
 
 

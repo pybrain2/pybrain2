@@ -2,7 +2,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy.optimize import fmin
 
-from pybrain.optimization.optimizer import ContinuousOptimizer
+from pybrain2.optimization.optimizer import ContinuousOptimizer
 
 
 class DesiredFoundException(Exception):

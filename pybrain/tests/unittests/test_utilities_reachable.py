@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.utilities import reachable, decrementAny, flood
+    >>> from pybrain2.utilities import reachable, decrementAny, flood
 
 The reachable-search can only get to 3 of the points.
 
@@ -15,7 +15,7 @@ The reachable-search can only get to 3 of the points.
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

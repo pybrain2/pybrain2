@@ -8,12 +8,12 @@
 __author__ = "Thomas Rueckstiess, Frank Sehnke"
 __version__ = '$Id$' 
 
-from pybrain.tools.example_tools import ExTools
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.rl.environments.cartpole import CartPoleEnvironment, BalanceTask
-from pybrain.rl.agents import OptimizationAgent
-from pybrain.optimization import PGPE
-from pybrain.rl.experiments import EpisodicExperiment
+from pybrain2.tools.example_tools import ExTools
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.rl.environments.cartpole import CartPoleEnvironment, BalanceTask
+from pybrain2.rl.agents import OptimizationAgent
+from pybrain2.optimization import PGPE
+from pybrain2.rl.experiments import EpisodicExperiment
 
 batch=1 #number of samples per learning step
 prnts=100 #number of learning steps after results are printed

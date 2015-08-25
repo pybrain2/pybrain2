@@ -1,2 +1,2 @@
-from pybrain.rl.environments.simple.environment import SimpleEnvironment
-from pybrain.rl.environments.simple.tasks import MinimizeTask
+from pybrain2.rl.environments.simple.environment import SimpleEnvironment
+from pybrain2.rl.environments.simple.tasks import MinimizeTask

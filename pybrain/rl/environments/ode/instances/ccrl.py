@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 
-from pybrain.rl.environments.ode import ODEEnvironment, sensors, actuators
+from pybrain2.rl.environments.ode import ODEEnvironment, sensors, actuators
 import imp
 import xode #@UnresolvedImport
 import ode #@UnresolvedImport

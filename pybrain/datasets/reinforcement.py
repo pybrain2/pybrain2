@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.datasets.sequential import SequentialDataSet
-from pybrain.datasets.dataset import DataSet
+from pybrain2.datasets.sequential import SequentialDataSet
+from pybrain2.datasets.dataset import DataSet
 from scipy import zeros
 
 

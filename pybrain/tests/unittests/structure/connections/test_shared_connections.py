@@ -12,7 +12,7 @@ Check if the parameters are the same:
     >>> (n.connections[n['b']][0].params == n.connections[n['c']][0].params).all()
     True
 
-    >>> from pybrain.tools.customxml.networkwriter import NetworkWriter
+    >>> from pybrain2.tools.customxml.networkwriter import NetworkWriter
 
 The transformation of the first input to the second output is identical to the transformation of the
 second towards the first:
@@ -30,14 +30,14 @@ second towards the first:
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -49,9 +49,9 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 import scipy
 
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
 from pybrain import LinearLayer, SharedFullConnection, MotherConnection
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSharedCrossedNetwork():

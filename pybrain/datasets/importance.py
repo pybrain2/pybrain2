@@ -4,8 +4,8 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import ones, dot
 
-from pybrain.datasets.sequential import SequentialDataSet
-from pybrain.utilities import fListToString
+from pybrain2.datasets.sequential import SequentialDataSet
+from pybrain2.utilities import fListToString
 
 
 # CHECKME: does this provide for importance-datasets in the non-sequential case

@@ -2,9 +2,9 @@ __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 
 from . import sensors
 import threading
-from pybrain.utilities import threaded
-from pybrain.tools.networking.udpconnection import UDPServer
-from pybrain.rl.environments.environment import Environment
+from pybrain2.utilities import threaded
+from pybrain2.tools.networking.udpconnection import UDPServer
+from pybrain2.rl.environments.environment import Environment
 from scipy import ones, zeros, array, clip, arange, sqrt
 from time import sleep
 

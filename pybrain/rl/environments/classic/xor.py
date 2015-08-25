@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.rl.environments.episodic import EpisodicTask
 from scipy import array
 from random import randint, random
 

@@ -5,10 +5,10 @@ from __future__ import print_function
 
 __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 
-from pybrain.structure.networks.rbm import Rbm
-from pybrain.unsupervised.trainers.rbm import (RbmGibbsTrainerConfig,
+from pybrain2.structure.networks.rbm import Rbm
+from pybrain2.unsupervised.trainers.rbm import (RbmGibbsTrainerConfig,
                                                RbmBernoulliTrainer)
-from pybrain.datasets import UnsupervisedDataSet
+from pybrain2.datasets import UnsupervisedDataSet
 
 
 ds = UnsupervisedDataSet(6)

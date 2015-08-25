@@ -5,7 +5,7 @@
 
 __author__ = 'Justin Bayer, bayer.justin@googlemail.com'
 
-from pybrain.structure.networks.network import Network
+from pybrain2.structure.networks.network import Network
 
 
 class FeedForwardNetworkComponent(object):

@@ -1,11 +1,11 @@
-from pybrain.structure.modules.linearlayer import LinearLayer
-from pybrain.structure.moduleslice import ModuleSlice
-from pybrain.structure.connections.identity import IdentityConnection
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
-from pybrain.structure.connections.shared import MotherConnection, SharedFullConnection
-from pybrain.structure.modules.biasunit import BiasUnit
-from pybrain.utilities import crossproduct
-from pybrain.structure.networks.convolutional import SimpleConvolutionalNetwork
+from pybrain2.structure.modules.linearlayer import LinearLayer
+from pybrain2.structure.moduleslice import ModuleSlice
+from pybrain2.structure.connections.identity import IdentityConnection
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.connections.shared import MotherConnection, SharedFullConnection
+from pybrain2.structure.modules.biasunit import BiasUnit
+from pybrain2.utilities import crossproduct
+from pybrain2.structure.networks.convolutional import SimpleConvolutionalNetwork
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 

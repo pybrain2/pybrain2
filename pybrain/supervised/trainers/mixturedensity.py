@@ -2,8 +2,8 @@
 __author__ = 'Martin Felder'
 
 import numpy as np
-from pybrain.supervised.trainers import RPropMinusTrainer, BackpropTrainer
-from pybrain.structure.modules.mixturedensity import MixtureDensityLayer
+from pybrain2.supervised.trainers import RPropMinusTrainer, BackpropTrainer
+from pybrain2.structure.modules.mixturedensity import MixtureDensityLayer
 
 def gaussian(x, mean, stddev):
     """ return value of homogenous Gaussian at given vector point 

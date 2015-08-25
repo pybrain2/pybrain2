@@ -3,10 +3,10 @@ from __future__ import print_function
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from .capturetask import CaptureGameTask
-from pybrain.rl.environments.twoplayergames.capturegameplayers import ModuleDecidingPlayer
-from pybrain.rl.environments.twoplayergames import CaptureGame
-from pybrain.rl.environments.twoplayergames.capturegameplayers.captureplayer import CapturePlayer
-from pybrain.structure.networks.custom.capturegame import CaptureGameNetwork
+from pybrain2.rl.environments.twoplayergames.capturegameplayers import ModuleDecidingPlayer
+from pybrain2.rl.environments.twoplayergames import CaptureGame
+from pybrain2.rl.environments.twoplayergames.capturegameplayers.captureplayer import CapturePlayer
+from pybrain2.structure.networks.custom.capturegame import CaptureGameNetwork
 
 
 class RelativeCaptureTask(CaptureGameTask):

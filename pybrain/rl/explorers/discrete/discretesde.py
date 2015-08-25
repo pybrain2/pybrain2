@@ -1,8 +1,8 @@
 __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
 
-from pybrain.rl.explorers.discrete.discrete import DiscreteExplorer
-from pybrain.rl.learners.valuebased.interface import ActionValueTable, ActionValueNetwork
+from pybrain2.rl.explorers.discrete.discrete import DiscreteExplorer
+from pybrain2.rl.learners.valuebased.interface import ActionValueTable, ActionValueNetwork
 from copy import deepcopy
 from numpy import random, array
 

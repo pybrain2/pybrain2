@@ -3,9 +3,9 @@ __author__ = 'proposed by Jean Pierre Queau , jeanpierre.queau"sbmoffshore.com'
 
 from scipy import array
 
-from pybrain.optimization.optimizer import BlackBoxOptimizer
-from pybrain.optimization.populationbased.ga import GA
-from pybrain.tools.nondominated import const_non_dominated_front, const_crowding_distance, const_non_dominated_sort
+from pybrain2.optimization.optimizer import BlackBoxOptimizer
+from pybrain2.optimization.populationbased.ga import GA
+from pybrain2.tools.nondominated import const_non_dominated_front, const_crowding_distance, const_non_dominated_sort
 
 # TODO: not very elegant, because of the conversions between tuples and arrays all the time...
 

@@ -1,7 +1,7 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
 import ode, xode #@UnresolvedImport
-from pybrain.utilities import Named
+from pybrain2.utilities import Named
 import sys, warnings
 
 class Actuator(Named):

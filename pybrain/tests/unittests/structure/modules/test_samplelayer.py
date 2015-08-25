@@ -1,6 +1,6 @@
 """
 
-    >>> from pybrain.structure.modules.samplelayer import BernoulliLayer
+    >>> from pybrain2.structure.modules.samplelayer import BernoulliLayer
     >>> from scipy import random, array, empty
 
 Set the random seed so we can predict the random variables.
@@ -31,7 +31,7 @@ Now test some forwards:
 
 __author__ = 'Justin Bayer, bayerj@in.tum.de'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == "__main__":
     runModuleTestSuite(__import__('__main__'))

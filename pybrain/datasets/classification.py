@@ -4,7 +4,7 @@ __author__ = "Martin Felder, felder@in.tum.de"
 
 from numpy import zeros, where, ravel, r_, single
 from numpy.random import permutation
-from pybrain.datasets import SupervisedDataSet, SequentialDataSet
+from pybrain2.datasets import SupervisedDataSet, SequentialDataSet
 
 class ClassificationDataSet(SupervisedDataSet):
     """ Specialized data set for classification data. Classes are to be numbered from 0 to nb_classes-1. """
@@ -302,7 +302,7 @@ class SequenceClassificationDataSet(SequentialDataSet, ClassificationDataSet):
 
         # Create 2 global attributes, one holding a string,
         # and the other one 2 floats.
-        d.title = 'Sequential data exported from PyBrain (www.pybrain.org)'
+        d.title = 'Sequential data exported from PyBrain (www.pybrain2.org)'
 
         # create the dimensions
         dimsize = { 'numTimesteps':        len(self),

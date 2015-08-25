@@ -4,9 +4,9 @@ __author__ = ('Christian Osendorfer, osendorf@in.tum.de;'
 
 from scipy import random, outer, zeros, ones
 
-from pybrain.datasets import SupervisedDataSet, UnsupervisedDataSet
-from pybrain.supervised.trainers import Trainer
-from pybrain.utilities import abstractMethod
+from pybrain2.datasets import SupervisedDataSet, UnsupervisedDataSet
+from pybrain2.supervised.trainers import Trainer
+from pybrain2.utilities import abstractMethod
 
 
 class RbmGibbsTrainerConfig:

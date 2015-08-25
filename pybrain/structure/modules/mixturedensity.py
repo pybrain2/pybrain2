@@ -2,7 +2,7 @@
 __author__ = 'Martin Felder'
 
 from .neuronlayer import NeuronLayer
-from pybrain.tools.functions import safeExp
+from pybrain2.tools.functions import safeExp
 
     
 class MixtureDensityLayer(NeuronLayer):

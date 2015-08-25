@@ -1,6 +1,6 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.environments import EpisodicTask
+from pybrain2.rl.environments import EpisodicTask
 
 
 class MinimizeTask(EpisodicTask):

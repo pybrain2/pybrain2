@@ -2,7 +2,7 @@
 
 __author__ = 'Daan Wierstra and Tom Schaul'
 
-from pybrain.utilities import Named
+from pybrain2.utilities import Named
 from random import randint
 from scipy import zeros, argmax, array, power, exp, sqrt, var, zeros_like, arange, mean, log
 

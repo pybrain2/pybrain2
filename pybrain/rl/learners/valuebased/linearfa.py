@@ -7,10 +7,10 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 In part inspired by pseudo-code from Szepesvari's 'Algorithms for RL' (2010)
 """
 
-from pybrain.rl.learners.valuebased.valuebased import ValueBasedLearner
+from pybrain2.rl.learners.valuebased.valuebased import ValueBasedLearner
 from scipy import zeros, dot, outer, exp, clip, ravel, ones, rand, array, randn
 from scipy.linalg import pinv2
-from pybrain.utilities import r_argmax, fListToString, setAllArgs
+from pybrain2.utilities import r_argmax, fListToString, setAllArgs
 import unittest
 from random import choice, randint
 

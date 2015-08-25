@@ -6,8 +6,8 @@ __version__ = '$Id$'
 
 from scipy import array
 
-from pybrain.structure.connections.connection import Connection
-from pybrain.utilities import permute
+from pybrain2.structure.connections.connection import Connection
+from pybrain2.utilities import permute
 
 
 class PermutationConnection(Connection):

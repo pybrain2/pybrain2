@@ -3,7 +3,7 @@ import os
 import scipy
 import struct
 
-from pybrain.datasets import SupervisedDataSet
+from pybrain2.datasets import SupervisedDataSet
 
 
 def labels(filename):

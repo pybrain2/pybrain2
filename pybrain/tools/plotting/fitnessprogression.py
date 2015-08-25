@@ -8,7 +8,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 import pylab
 from pylab import xlabel, ylabel, legend, plot, semilogy
 from scipy import array, zeros, power, log10
-from pybrain.utilities import avgFoundAfter
+from pybrain2.utilities import avgFoundAfter
 
 plotsymbols = ['-', ':', '-.']
 psymbol = '-'

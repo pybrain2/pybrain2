@@ -1,6 +1,6 @@
 __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 
-from pybrain.rl.environments.ode import ODEEnvironment, sensors, actuators
+from pybrain2.rl.environments.ode import ODEEnvironment, sensors, actuators
 import imp
 from scipy import array
 

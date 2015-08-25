@@ -8,7 +8,7 @@ from itertools import chain
 from scipy import zeros, resize, ravel, asarray
 import scipy
 
-from pybrain.utilities import Serializable
+from pybrain2.utilities import Serializable
 
 
 class OutOfSyncError(Exception): pass

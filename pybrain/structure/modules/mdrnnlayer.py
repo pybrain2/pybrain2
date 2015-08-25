@@ -14,10 +14,10 @@ __author__ = 'Justin S Bayer, bayer.justin@googlemail.com'
 
 import operator
 
-from pybrain.structure.modules import MDLSTMLayer, LinearLayer, BiasUnit
-from pybrain.structure.modules.module import Module
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.modules import MDLSTMLayer, LinearLayer, BiasUnit
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.parametercontainer import ParameterContainer
 from functools import reduce
 
 

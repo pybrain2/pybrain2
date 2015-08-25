@@ -23,8 +23,8 @@ Now let's verify the recurrent one as well:
 
 """
 
-from pybrain.structure import RecurrentNetwork, FeedForwardNetwork, IdentityConnection, LinearLayer, SigmoidLayer
-from pybrain.tests.testsuites import runModuleTestSuite
+from pybrain2.structure import RecurrentNetwork, FeedForwardNetwork, IdentityConnection, LinearLayer, SigmoidLayer
+from pybrain2.tests.testsuites import runModuleTestSuite
 
 def buildNonGravityNet(recurrent = False):
     if recurrent:

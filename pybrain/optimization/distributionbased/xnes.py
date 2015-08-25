@@ -2,9 +2,9 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, Sun Yi, Tobias Glasmachers'
 
-from pybrain.tools.rankingfunctions import HansenRanking
-from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
-from pybrain.auxiliary.importancemixing import importanceMixing
+from pybrain2.tools.rankingfunctions import HansenRanking
+from pybrain2.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
+from pybrain2.auxiliary.importancemixing import importanceMixing
 from scipy.linalg import expm2
 from scipy import dot, array, randn, eye, outer, exp, trace, floor, log, sqrt
 
@@ -136,7 +136,7 @@ class XNES(DistributionBasedOptimizer):
 
 
 if __name__ == '__main__':
-    from pybrain.rl.environments.functions.unimodal import RosenbrockFunction
+    from pybrain2.rl.environments.functions.unimodal import RosenbrockFunction
     from scipy import ones
     dim = 10
     f = RosenbrockFunction(dim)

@@ -1,10 +1,10 @@
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.twoplayergames.pente import PenteGame
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.rl.environments.twoplayergames.pente import PenteGame
+from pybrain2.rl.environments.episodic import EpisodicTask
 from .gomokutask import GomokuTask
-from pybrain.rl.environments.twoplayergames.gomokuplayers import RandomGomokuPlayer
+from pybrain2.rl.environments.twoplayergames.gomokuplayers import RandomGomokuPlayer
 from inspect import isclass
 
 

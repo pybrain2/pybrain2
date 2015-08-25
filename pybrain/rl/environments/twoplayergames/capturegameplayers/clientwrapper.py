@@ -5,7 +5,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 import socket
 
 from .captureplayer import CapturePlayer
-from pybrain.rl.environments.twoplayergames import CaptureGame
+from pybrain2.rl.environments.twoplayergames import CaptureGame
 
 # TODO: allow partially forced random moves.
 

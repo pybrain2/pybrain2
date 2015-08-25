@@ -1,12 +1,12 @@
 __author__ = 'Michael Isik'
 
 
-from pybrain.structure.networks.network     import Network
-from pybrain.structure.modules.lstm         import LSTMLayer
-from pybrain.structure.modules.linearlayer  import LinearLayer
-from pybrain.structure.connections.full     import FullConnection
-from pybrain.structure.modules.module       import Module
-from pybrain.structure.modules.biasunit     import BiasUnit
+from pybrain2.structure.networks.network     import Network
+from pybrain2.structure.modules.lstm         import LSTMLayer
+from pybrain2.structure.modules.linearlayer  import LinearLayer
+from pybrain2.structure.connections.full     import FullConnection
+from pybrain2.structure.modules.module       import Module
+from pybrain2.structure.modules.biasunit     import BiasUnit
 
 from numpy import zeros, array, append
 

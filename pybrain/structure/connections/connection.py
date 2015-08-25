@@ -1,7 +1,7 @@
 __author__ = 'Daan Wierstra and Tom Schaul'
 
-from pybrain.utilities import abstractMethod, Named
-from pybrain.structure.moduleslice import ModuleSlice
+from pybrain2.utilities import abstractMethod, Named
+from pybrain2.structure.moduleslice import ModuleSlice
 
 
 class Connection(Named):

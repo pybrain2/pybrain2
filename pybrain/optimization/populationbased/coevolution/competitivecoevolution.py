@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization.coevolution.coevolution import Coevolution
+from pybrain2.optimization.coevolution.coevolution import Coevolution
 
 
 class CompetitiveCoevolution(Coevolution):
@@ -95,7 +95,7 @@ class CompetitiveCoevolution(Coevolution):
 
 
 if __name__ == '__main__':
-    from pybrain.utilities import fListToString
+    from pybrain2.utilities import fListToString
     # TODO: convert to unittest
     C = CompetitiveCoevolution(None, [1, 2, 3, 4, 5, 6, 7, 8], populationSize=4)
     def b(x, y):

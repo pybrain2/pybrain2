@@ -1,1 +1,1 @@
-from pybrain.rl.explorers.continuous.normal import NormalExplorer
+from pybrain2.rl.explorers.continuous.normal import NormalExplorer

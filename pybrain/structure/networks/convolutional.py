@@ -1,11 +1,11 @@
 from __future__ import print_function
 
-from pybrain.structure.modules.linearlayer import LinearLayer
-from pybrain.structure.modules.tanhlayer import TanhLayer
-from pybrain.structure.moduleslice import ModuleSlice
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
-from pybrain.structure.connections.shared import MotherConnection, SharedFullConnection
-from pybrain.structure.modules.sigmoidlayer import SigmoidLayer
+from pybrain2.structure.modules.linearlayer import LinearLayer
+from pybrain2.structure.modules.tanhlayer import TanhLayer
+from pybrain2.structure.moduleslice import ModuleSlice
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.connections.shared import MotherConnection, SharedFullConnection
+from pybrain2.structure.modules.sigmoidlayer import SigmoidLayer
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
@@ -57,7 +57,7 @@ class SimpleConvolutionalNetwork(FeedForwardNetwork):
 if __name__ == '__main__':
     from scipy import array, ravel
     from .custom.convboard import ConvolutionalBoardNetwork
-    from pybrain.rl.environments.twoplayergames.tasks import CaptureGameTask
+    from pybrain2.rl.environments.twoplayergames.tasks import CaptureGameTask
 
     N = ConvolutionalBoardNetwork(4, 3, 5)
     input = [[[0, 0], [0, 0], [0, 0], [0, 0]],

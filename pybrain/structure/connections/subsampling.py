@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.connections.connection import Connection
-from pybrain.structure.parametercontainer import ParameterContainer
+from pybrain2.structure.connections.connection import Connection
+from pybrain2.structure.parametercontainer import ParameterContainer
 from scipy import average
 
 #:TODO: backward pass

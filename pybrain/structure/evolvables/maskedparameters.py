@@ -3,7 +3,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from scipy import zeros, randn
 from random import random, sample, gauss
 
-from pybrain.structure.evolvables.topology import TopologyEvolvable
+from pybrain2.structure.evolvables.topology import TopologyEvolvable
 
 
 class MaskedParameters(TopologyEvolvable):

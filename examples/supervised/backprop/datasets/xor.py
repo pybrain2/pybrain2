@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.datasets import SupervisedDataSet, ImportanceDataSet
+from pybrain2.datasets import SupervisedDataSet, ImportanceDataSet
 
 
 class XORDataSet(SupervisedDataSet):

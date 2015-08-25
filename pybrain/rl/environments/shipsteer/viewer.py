@@ -33,7 +33,7 @@ from OpenGL.GLE import *
 from OpenGL.GLU import *
 from time import sleep
 from scipy import ones, array, cos, sin
-from pybrain.tools.networking.udpconnection import UDPClient
+from pybrain2.tools.networking.udpconnection import UDPClient
 
 class FlexCubeRenderer(object):
     #Options: ServerIP(default:localhost), OwnIP(default:localhost), Port(default:21560)

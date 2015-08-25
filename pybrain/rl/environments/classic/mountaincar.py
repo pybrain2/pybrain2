@@ -7,7 +7,7 @@ of Jose Antonio Martin H. (version 1.0).
 """
     
 from scipy import array, cos
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.rl.environments.episodic import EpisodicTask
 
 
 class MountainCar(EpisodicTask): 

@@ -5,11 +5,11 @@ from scipy import rand, dot, power, diag, eye, sqrt, sin, log, exp, ravel, clip,
 from scipy.linalg import orth, norm, inv
 from random import shuffle, random, gauss
 
-from pybrain.rl.environments.functions.function import FunctionEnvironment
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.rl.environments.fitnessevaluator import FitnessEvaluator
-from pybrain.utilities import sparse_orth, dense_orth
-from pybrain.rl.environments.functions.multiobjective import MultiObjectiveFunction
+from pybrain2.rl.environments.functions.function import FunctionEnvironment
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.rl.environments.fitnessevaluator import FitnessEvaluator
+from pybrain2.utilities import sparse_orth, dense_orth
+from pybrain2.rl.environments.functions.multiobjective import MultiObjectiveFunction
 
 
 def oppositeFunction(basef):

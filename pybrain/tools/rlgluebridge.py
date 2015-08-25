@@ -29,10 +29,10 @@ from rlglue.network.Network import kLocalHost as DEFAULT_HOST #@UnresolvedImport
 from rlglue.types import Action as RLGlueAction #@UnresolvedImport
 from scipy import array
 
-from pybrain.structure.modules.module import Module
-from pybrain.rl.agents import LearningAgent
-from pybrain.utilities import threaded
-from pybrain.tools.benchmark import BenchmarkDataSet
+from pybrain2.structure.modules.module import Module
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.utilities import threaded
+from pybrain2.tools.benchmark import BenchmarkDataSet
 
 
 class RLGlueError(Exception): pass

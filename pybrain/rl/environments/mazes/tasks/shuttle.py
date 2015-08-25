@@ -4,7 +4,7 @@ from scipy import array, zeros
 from random import random
 
 from .maze import MazeTask
-from pybrain.rl.environments.mazes import PolarMaze
+from pybrain2.rl.environments.mazes import PolarMaze
 
 
 class ShuttleDocking(MazeTask):

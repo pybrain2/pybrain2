@@ -12,7 +12,7 @@ from .tools.mathhelpers import crossproduct, norm, dotproduct
 import time
 import Image #@UnresolvedImport
 
-from pybrain.tools.networking.udpconnection import UDPClient
+from pybrain2.tools.networking.udpconnection import UDPClient
 
 
 class ODEViewer(object):

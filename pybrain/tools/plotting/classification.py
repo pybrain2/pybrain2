@@ -15,7 +15,7 @@ class ClassificationDataSetPlot(object):
         values very low. A graph with lot of black is a bad sign.
 
         :param module: The module/network to plot.
-        :type module: pybrain.structure.modules.module.Module
+        :type module: pybrain2.structure.modules.module.Module
         :param dataset: Training dataset used as inputs and expected outputs.
         :type dataset: SequenceClassificationDataSet
         :param sequence_index: Sequence index to plot in the dataset.
@@ -38,7 +38,7 @@ class ClassificationDataSetPlot(object):
     def plot_module_classification_dataset_performance(module, dataset, cols=4, bounds=(0, 1)):
         """Do a plot_module_classification_sequence_performance() for all sequences in the dataset.
         :param module: The module/network to plot.
-        :type module: pybrain.structure.modules.module.Module
+        :type module: pybrain2.structure.modules.module.Module
         :param dataset: Training dataset used as inputs and expected outputs.
         :type dataset: SequenceClassificationDataSet
         :param bounds: Outputs lower and upper bound.

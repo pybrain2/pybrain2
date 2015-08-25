@@ -3,10 +3,10 @@ from __future__ import print_function
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from .gomokutask import GomokuTask
-from pybrain.rl.environments.twoplayergames.gomokuplayers import ModuleDecidingPlayer
-from pybrain.rl.environments.twoplayergames import GomokuGame
-from pybrain.rl.environments.twoplayergames.gomokuplayers.gomokuplayer import GomokuPlayer
-from pybrain.structure.networks.custom.capturegame import CaptureGameNetwork
+from pybrain2.rl.environments.twoplayergames.gomokuplayers import ModuleDecidingPlayer
+from pybrain2.rl.environments.twoplayergames import GomokuGame
+from pybrain2.rl.environments.twoplayergames.gomokuplayers.gomokuplayer import GomokuPlayer
+from pybrain2.structure.networks.custom.capturegame import CaptureGameNetwork
 
 
 class RelativeGomokuTask(GomokuTask):

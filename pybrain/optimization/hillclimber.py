@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization.optimizer import BlackBoxOptimizer
+from pybrain2.optimization.optimizer import BlackBoxOptimizer
 from scipy import exp
 from random import random
 

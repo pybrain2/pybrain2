@@ -12,14 +12,14 @@ Build a simple recurrent network:
 
 Check its gradient:
 
-    >>> from pybrain.tests import gradientCheck
+    >>> from pybrain2.tests import gradientCheck
     >>> gradientCheck(n)
     Perfect gradient
     True
 
 Try writing it to an xml file, reread it and determine if it looks the same:
 
-    >>> from pybrain.tests import xmlInvariance
+    >>> from pybrain2.tests import xmlInvariance
     >>> xmlInvariance(n)
     Same representation
     Same function
@@ -43,9 +43,9 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import ones #@UnusedImport
 from pybrain import FullConnection
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.structure import LinearLayer
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tools.shortcuts import buildNetwork
+from pybrain2.structure import LinearLayer
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildRecurrentNetwork():

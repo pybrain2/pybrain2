@@ -1,11 +1,11 @@
-from pybrain.utilities import setAllArgs
+from pybrain2.utilities import setAllArgs
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import zeros, array, ndarray
 
-from pybrain.rl.environments import Environment
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.rl.environments.fitnessevaluator import FitnessEvaluator
+from pybrain2.rl.environments import Environment
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.rl.environments.fitnessevaluator import FitnessEvaluator
 
 
 class FunctionEnvironment(Environment, FitnessEvaluator):

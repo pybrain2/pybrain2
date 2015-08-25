@@ -5,9 +5,9 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 from scipy import zeros, ones
 
-from pybrain.rl.environments.twoplayergames import GomokuGame
+from pybrain2.rl.environments.twoplayergames import GomokuGame
 from .randomplayer import RandomGomokuPlayer
-from pybrain.utilities import drawGibbs
+from pybrain2.utilities import drawGibbs
 
 
 class ModuleDecidingPlayer(RandomGomokuPlayer):

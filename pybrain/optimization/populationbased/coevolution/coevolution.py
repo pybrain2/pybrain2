@@ -5,7 +5,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 from scipy import argmax, array
 from random import sample, choice, shuffle
 
-from pybrain.utilities import fListToString, Named
+from pybrain2.utilities import fListToString, Named
 
 
 class Coevolution(Named):

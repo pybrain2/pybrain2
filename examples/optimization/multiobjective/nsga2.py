@@ -4,8 +4,8 @@ on a simple standard benchmark function. """
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.optimization import MultiObjectiveGA
-from pybrain.rl.environments.functions.multiobjective import KurBenchmark
+from pybrain2.optimization import MultiObjectiveGA
+from pybrain2.rl.environments.functions.multiobjective import KurBenchmark
 import pylab
 from scipy import zeros
 

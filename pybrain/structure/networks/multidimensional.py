@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.networks.swiping import SwipingNetwork
+from pybrain2.structure.networks.swiping import SwipingNetwork
 from pybrain import MDLSTMLayer, IdentityConnection
 from pybrain import ModuleMesh, LinearLayer, TanhLayer, SigmoidLayer
 from scipy import product

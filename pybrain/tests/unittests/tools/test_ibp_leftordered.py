@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.tools.ibp import leftordered
+    >>> from pybrain2.tools.ibp import leftordered
     >>> from scipy import rand, array
 
 Build a random binary matrix
@@ -22,7 +22,7 @@ Reordering columns does not
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

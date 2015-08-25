@@ -9,14 +9,14 @@ import csv
 from numpy import Infinity
 import logging
 
-from pybrain.datasets                  import ClassificationDataSet, SequentialDataSet
-from pybrain.tools.shortcuts           import buildNetwork
-from pybrain.supervised                import BackpropTrainer, RPropMinusTrainer, Trainer
-from pybrain.structure                 import SoftmaxLayer, LSTMLayer
-from pybrain.utilities                 import setAllArgs
-from pybrain.tools.plotting            import MultilinePlotter
-from pybrain.tools.validation          import testOnSequenceData, ModuleValidator, Validator
-from pybrain.tools.customxml           import NetworkWriter
+from pybrain2.datasets                  import ClassificationDataSet, SequentialDataSet
+from pybrain2.tools.shortcuts           import buildNetwork
+from pybrain2.supervised                import BackpropTrainer, RPropMinusTrainer, Trainer
+from pybrain2.structure                 import SoftmaxLayer, LSTMLayer
+from pybrain2.utilities                 import setAllArgs
+from pybrain2.tools.plotting            import MultilinePlotter
+from pybrain2.tools.validation          import testOnSequenceData, ModuleValidator, Validator
+from pybrain2.tools.customxml           import NetworkWriter
 
 
 class NNtools(object):

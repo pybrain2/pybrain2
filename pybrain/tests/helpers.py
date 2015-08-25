@@ -10,10 +10,10 @@ import tempfile
 
 from scipy import randn, zeros
 
-from pybrain.structure.networks.network import Network
-from pybrain.datasets import SequentialDataSet, SupervisedDataSet
-from pybrain.supervised import BackpropTrainer
-from pybrain.tools.customxml import NetworkWriter, NetworkReader
+from pybrain2.structure.networks.network import Network
+from pybrain2.datasets import SequentialDataSet, SupervisedDataSet
+from pybrain2.supervised import BackpropTrainer
+from pybrain2.tools.customxml import NetworkWriter, NetworkReader
 
 
 

@@ -7,7 +7,7 @@ of Jose Antonio Martin H. (version 1.0).
 """
     
 from scipy import pi, array, cos, sin
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.rl.environments.episodic import EpisodicTask
 
 
 class AcrobotTask(EpisodicTask): 

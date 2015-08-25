@@ -2,10 +2,10 @@ __author__ = 'Daan Wierstra and Tom Schaul'
 
 from scipy import tanh
 
-from pybrain.structure.modules.neuronlayer import NeuronLayer
-from pybrain.structure.modules.module import Module
-from pybrain.structure.parametercontainer import ParameterContainer
-from pybrain.tools.functions import sigmoid, sigmoidPrime, tanhPrime
+from pybrain2.structure.modules.neuronlayer import NeuronLayer
+from pybrain2.structure.modules.module import Module
+from pybrain2.structure.parametercontainer import ParameterContainer
+from pybrain2.tools.functions import sigmoid, sigmoidPrime, tanhPrime
 
 
 class LSTMLayer(NeuronLayer, ParameterContainer):

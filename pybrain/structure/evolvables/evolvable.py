@@ -2,7 +2,7 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 import copy
 
-from pybrain.utilities import abstractMethod, Named
+from pybrain2.utilities import abstractMethod, Named
 
 
 class Evolvable(Named):

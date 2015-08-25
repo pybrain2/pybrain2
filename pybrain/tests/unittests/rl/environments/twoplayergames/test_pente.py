@@ -1,7 +1,7 @@
 """
 
 Initialize a game of Pente.
-    >>> from pybrain.rl.environments.twoplayergames.pente import PenteGame
+    >>> from pybrain2.rl.environments.twoplayergames.pente import PenteGame
     >>> dim = 5
     >>> c = PenteGame((dim, dim))
     >>> print(c)
@@ -81,7 +81,7 @@ Check if all the values are right:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

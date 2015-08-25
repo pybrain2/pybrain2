@@ -2,7 +2,7 @@ __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
 from scipy import random, array
 
-from pybrain.rl.explorers.discrete.discrete import DiscreteExplorer
+from pybrain2.rl.explorers.discrete.discrete import DiscreteExplorer
 
 class EpsilonGreedyExplorer(DiscreteExplorer):
     """ A discrete explorer, that executes the original policy in most cases,

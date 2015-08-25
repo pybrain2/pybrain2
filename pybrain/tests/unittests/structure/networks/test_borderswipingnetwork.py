@@ -67,8 +67,8 @@ Let's attempt a couple of activations:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
-from pybrain.structure.networks import BorderSwipingNetwork
+from pybrain2.tests import runModuleTestSuite
+from pybrain2.structure.networks import BorderSwipingNetwork
 from pybrain import ModuleMesh, LinearLayer, TanhLayer
 
 

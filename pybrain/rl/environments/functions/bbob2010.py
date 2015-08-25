@@ -7,9 +7,9 @@ Note: f_opt is fixed to 0 for all.
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.rl.environments.functions.unimodal import * #@UnusedWildImport
-from pybrain.rl.environments.functions.transformations import BBOBTransformationFunction
-from pybrain.rl.environments.functions.multimodal import * #@UnusedWildImport
+from pybrain2.rl.environments.functions.unimodal import * #@UnusedWildImport
+from pybrain2.rl.environments.functions.transformations import BBOBTransformationFunction
+from pybrain2.rl.environments.functions.multimodal import * #@UnusedWildImport
 
 
 

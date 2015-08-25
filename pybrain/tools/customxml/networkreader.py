@@ -39,7 +39,7 @@ class NetworkReader(XMLHandling):
 
     def readNetwork(self, node):
         # TODO: why is this necessary?
-        import pybrain.structure.networks.custom #@Reimport @UnusedImport
+        import pybrain2.structure.networks.custom #@Reimport @UnusedImport
         nclass = eval(str(node.getAttribute('class')))
         argdict = self.readArgs(node)
         n = nclass(**argdict)

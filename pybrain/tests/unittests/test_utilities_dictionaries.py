@@ -1,5 +1,5 @@
 """
-    >>> from pybrain.utilities import dictCombinations, subDict, matchingDict
+    >>> from pybrain2.utilities import dictCombinations, subDict, matchingDict
     >>> d1 = {'ones':[1,1,1,'one'], 2:[2,4,6,8], 4:4, 8:['eight']}
     >>> d2 = {1:1, 2:2, 4:4, 8:8}
 
@@ -53,7 +53,7 @@ but dealing with non-lists, and any types of keys and values.
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

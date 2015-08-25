@@ -1,7 +1,7 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.evolvables.maskedparameters import MaskedParameters
-from pybrain.structure.modules.module import Module
+from pybrain2.structure.evolvables.maskedparameters import MaskedParameters
+from pybrain2.structure.modules.module import Module
 
 
 class MaskedModule(MaskedParameters, Module):

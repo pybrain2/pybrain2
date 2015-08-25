@@ -1,12 +1,12 @@
 __author__ = 'Martin Felder, felder@in.tum.de'
 
 from scipy import random
-from pybrain.tools.networking.udpconnection import UDPServer
+from pybrain2.tools.networking.udpconnection import UDPServer
 import threading
-from pybrain.utilities import threaded
+from pybrain2.utilities import threaded
 from time import sleep
 
-from pybrain.rl.environments.environment import Environment
+from pybrain2.rl.environments.environment import Environment
 
 
 class ShipSteeringEnvironment(Environment):

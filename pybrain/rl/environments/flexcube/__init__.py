@@ -1,2 +1,2 @@
-from pybrain.rl.environments.flexcube.environment import FlexCubeEnvironment
-from pybrain.rl.environments.flexcube.tasks import *
+from pybrain2.rl.environments.flexcube.environment import FlexCubeEnvironment
+from pybrain2.rl.environments.flexcube.tasks import *

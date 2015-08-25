@@ -6,8 +6,8 @@ in pybrain, for one and two dimensions. """
 
 __author__ = "Thomas Rueckstiess, ruecksti@in.tum.de"
 
-from pybrain.auxiliary import GaussianProcess
-from pybrain.datasets import SupervisedDataSet
+from pybrain2.auxiliary import GaussianProcess
+from pybrain2.datasets import SupervisedDataSet
 from scipy import mgrid, sin, cos, array, ravel
 from pylab import show, figure
 

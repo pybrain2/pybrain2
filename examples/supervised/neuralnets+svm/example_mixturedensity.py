@@ -7,11 +7,11 @@ __author__ = 'Martin Felder'
 
 import pylab as p
 import numpy as np
-from pybrain.structure.modules import LinearLayer, BiasUnit, SigmoidLayer
-from pybrain.structure import FullConnection, FeedForwardNetwork
-from pybrain.datasets import SupervisedDataSet
-from pybrain.supervised.trainers.mixturedensity import RPropMinusTrainerMix, BackpropTrainerMix
-from pybrain.structure.modules.mixturedensity import MixtureDensityLayer
+from pybrain2.structure.modules import LinearLayer, BiasUnit, SigmoidLayer
+from pybrain2.structure import FullConnection, FeedForwardNetwork
+from pybrain2.datasets import SupervisedDataSet
+from pybrain2.supervised.trainers.mixturedensity import RPropMinusTrainerMix, BackpropTrainerMix
+from pybrain2.structure.modules.mixturedensity import MixtureDensityLayer
 
 
 def multigaussian(x, mean, stddev):

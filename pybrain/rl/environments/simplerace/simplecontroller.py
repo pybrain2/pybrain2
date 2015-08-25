@@ -4,7 +4,7 @@ __author__ = 'Julian Togelius, julian@idsia.ch'
 
 from scipy import array
 
-from pybrain.rl.agents.agent import Agent
+from pybrain2.rl.agents.agent import Agent
 
 
 class SimpleController(Agent):

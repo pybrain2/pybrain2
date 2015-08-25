@@ -1,7 +1,7 @@
 __author__ = 'Justin Bayer, bayerj@in.tum.de'
 
 
-from pybrain.datasets.dataset import DataSet
+from pybrain2.datasets.dataset import DataSet
 
 
 class BenchmarkDataSet(DataSet):

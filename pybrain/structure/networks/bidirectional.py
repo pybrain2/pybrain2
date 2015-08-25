@@ -1,10 +1,10 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.modules import TanhLayer, SigmoidLayer
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
-from pybrain.structure.connections.shared import MotherConnection, SharedFullConnection
-from pybrain.structure.modules.linearlayer import LinearLayer
-from pybrain.structure.modulemesh import ModuleMesh
+from pybrain2.structure.modules import TanhLayer, SigmoidLayer
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.connections.shared import MotherConnection, SharedFullConnection
+from pybrain2.structure.modules.linearlayer import LinearLayer
+from pybrain2.structure.modulemesh import ModuleMesh
 
 
 class BidirectionalNetwork(FeedForwardNetwork):

@@ -6,8 +6,8 @@ from __future__ import print_function
 __author__ = 'Tom Schaul (tom@idsia.ch)'
 
 from datasets import ParityDataSet #@UnresolvedImport
-from pybrain.supervised.trainers.backprop import BackpropTrainer
-from pybrain.structure import RecurrentNetwork, LinearLayer, TanhLayer, BiasUnit, FullConnection
+from pybrain2.supervised.trainers.backprop import BackpropTrainer
+from pybrain2.structure import RecurrentNetwork, LinearLayer, TanhLayer, BiasUnit, FullConnection
 
 
 def buildParityNet():

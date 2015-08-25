@@ -4,9 +4,9 @@ __author__ = 'Michael Isik'
 from numpy.random import permutation
 from numpy import array, array_split, apply_along_axis, concatenate, ones, dot, delete, append, zeros, argmax
 import copy
-from pybrain.datasets.importance import ImportanceDataSet
-from pybrain.datasets.sequential import SequentialDataSet
-from pybrain.datasets.supervised import SupervisedDataSet
+from pybrain2.datasets.importance import ImportanceDataSet
+from pybrain2.datasets.sequential import SequentialDataSet
+from pybrain2.datasets.supervised import SupervisedDataSet
 
 
 

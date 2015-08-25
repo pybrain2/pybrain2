@@ -3,11 +3,11 @@ from __future__ import print_function
 #!/usr/bin/env python
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.environments.cartpole import CartPoleEnvironment, DiscreteBalanceTask, CartPoleRenderer
-from pybrain.rl.agents import LearningAgent
-from pybrain.rl.experiments import EpisodicExperiment
-from pybrain.rl.learners.valuebased import NFQ, ActionValueNetwork
-from pybrain.rl.explorers import BoltzmannExplorer
+from pybrain2.rl.environments.cartpole import CartPoleEnvironment, DiscreteBalanceTask, CartPoleRenderer
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.rl.experiments import EpisodicExperiment
+from pybrain2.rl.learners.valuebased import NFQ, ActionValueNetwork
+from pybrain2.rl.explorers import BoltzmannExplorer
 
 from numpy import array, arange, meshgrid, pi, zeros, mean
 from matplotlib import pyplot as plt

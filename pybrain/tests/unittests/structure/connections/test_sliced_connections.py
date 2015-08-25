@@ -1,6 +1,6 @@
 """
     >>> from scipy import array
-    >>> from pybrain.tests import epsilonCheck
+    >>> from pybrain2.tests import epsilonCheck
 
 Trying to build a network with shared connections:
 
@@ -24,9 +24,9 @@ second towards the first:
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
-from pybrain.structure.networks.feedforward import FeedForwardNetwork
+from pybrain2.structure.networks.feedforward import FeedForwardNetwork
 from pybrain import LinearLayer, FullConnection
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 
 def buildSlicedNetwork():

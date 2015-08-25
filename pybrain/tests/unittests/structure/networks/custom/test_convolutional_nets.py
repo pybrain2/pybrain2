@@ -1,7 +1,7 @@
 """
 
 Let's build a convolutional network designed for board games:
-    >>> from pybrain.structure.networks.custom.convboard import ConvolutionalBoardNetwork
+    >>> from pybrain2.structure.networks.custom.convboard import ConvolutionalBoardNetwork
     >>> from scipy import array, ravel, var
     >>> N = ConvolutionalBoardNetwork(4, 3, 5)
     >>> print(N.paramdim)
@@ -57,7 +57,7 @@ because a cluster-size of 3x3 makes their input look identical.
 
 Now let's use the network, and play a game with it:
 
-    >>> from pybrain.rl.environments.twoplayergames import CaptureGameTask
+    >>> from pybrain2.rl.environments.twoplayergames import CaptureGameTask
     >>> t = CaptureGameTask(4)
     >>> tmp = t(N)
 
@@ -65,7 +65,7 @@ Now let's use the network, and play a game with it:
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.tests import runModuleTestSuite
+from pybrain2.tests import runModuleTestSuite
 
 if __name__ == '__main__':
     runModuleTestSuite(__import__('__main__'))

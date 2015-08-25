@@ -1,3 +1,3 @@
-from pybrain.rl.explorers.discrete.boltzmann import BoltzmannExplorer
-from pybrain.rl.explorers.discrete.egreedy import EpsilonGreedyExplorer
-from pybrain.rl.explorers.discrete.discretesde import DiscreteStateDependentExplorer
+from pybrain2.rl.explorers.discrete.boltzmann import BoltzmannExplorer
+from pybrain2.rl.explorers.discrete.egreedy import EpsilonGreedyExplorer
+from pybrain2.rl.explorers.discrete.discretesde import DiscreteStateDependentExplorer

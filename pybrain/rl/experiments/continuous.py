@@ -1,6 +1,6 @@
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.experiments.experiment import Experiment
+from pybrain2.rl.experiments.experiment import Experiment
 
 
 class ContinuousExperiment(Experiment):

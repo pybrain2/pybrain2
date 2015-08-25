@@ -2,12 +2,12 @@ __author__ = 'Tom Schaul, tom@idsia.ch'
 
 
 from inspect import isclass
-from pybrain.utilities import  Named
-from pybrain.rl.environments.twoplayergames import GomokuGame
-from pybrain.rl.environments.twoplayergames.gomokuplayers import RandomGomokuPlayer, ModuleDecidingPlayer
-from pybrain.rl.environments.twoplayergames.gomokuplayers.gomokuplayer import GomokuPlayer
-from pybrain.structure.modules.module import Module
-from pybrain.rl.environments.episodic import EpisodicTask
+from pybrain2.utilities import  Named
+from pybrain2.rl.environments.twoplayergames import GomokuGame
+from pybrain2.rl.environments.twoplayergames.gomokuplayers import RandomGomokuPlayer, ModuleDecidingPlayer
+from pybrain2.rl.environments.twoplayergames.gomokuplayers.gomokuplayer import GomokuPlayer
+from pybrain2.structure.modules.module import Module
+from pybrain2.rl.environments.episodic import EpisodicTask
 
 
 class GomokuTask(EpisodicTask, Named):

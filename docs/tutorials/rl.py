@@ -19,11 +19,11 @@ components from PyBrain:
 from scipy import * #@UnusedWildImport
 import pylab
 
-from pybrain.rl.environments.mazes import Maze, MDPMazeTask
-from pybrain.rl.learners.valuebased import ActionValueTable
-from pybrain.rl.agents import LearningAgent
-from pybrain.rl.learners import Q, SARSA #@UnusedImport
-from pybrain.rl.experiments import Experiment
+from pybrain2.rl.environments.mazes import Maze, MDPMazeTask
+from pybrain2.rl.learners.valuebased import ActionValueTable
+from pybrain2.rl.agents import LearningAgent
+from pybrain2.rl.learners import Q, SARSA #@UnusedImport
+from pybrain2.rl.experiments import Experiment
 
 
 """

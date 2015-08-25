@@ -2,11 +2,11 @@ from __future__ import print_function
 
 __author__ = 'Michael Isik'
 
-from pybrain.supervised.evolino.gfilter import Filter, SimpleMutation
-from pybrain.supervised.evolino.variate import CauchyVariate
-from pybrain.supervised.evolino.population import SimplePopulation
-from pybrain.tools.validation import Validator
-from pybrain.tools.kwargsprocessor import KWArgsProcessor
+from pybrain2.supervised.evolino.gfilter import Filter, SimpleMutation
+from pybrain2.supervised.evolino.variate import CauchyVariate
+from pybrain2.supervised.evolino.population import SimplePopulation
+from pybrain2.tools.validation import Validator
+from pybrain2.tools.kwargsprocessor import KWArgsProcessor
 
 from numpy import array, dot, concatenate, Infinity
 from scipy.linalg import pinv2

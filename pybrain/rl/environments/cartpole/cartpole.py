@@ -5,7 +5,7 @@ from math import sin, cos
 import time
 from scipy import eye, matrix, random, asarray
 
-from pybrain.rl.environments.graphical import GraphicalEnvironment
+from pybrain2.rl.environments.graphical import GraphicalEnvironment
 
 
 class CartPoleEnvironment(GraphicalEnvironment):

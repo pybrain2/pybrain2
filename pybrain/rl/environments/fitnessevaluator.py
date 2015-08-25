@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.utilities import abstractMethod
+from pybrain2.utilities import abstractMethod
 
 
 class FitnessEvaluator(object):

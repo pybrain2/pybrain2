@@ -2,7 +2,7 @@ from __future__ import print_function
 
 __author__ = 'Thomas Rueckstiess, ruecksti@in.tum.de'
 
-from pybrain.rl.learners.directsearch.policygradient import PolicyGradientLearner
+from pybrain2.rl.learners.directsearch.policygradient import PolicyGradientLearner
 from scipy import ones, dot, ravel
 from scipy.linalg import pinv
 

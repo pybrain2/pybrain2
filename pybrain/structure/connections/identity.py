@@ -1,6 +1,6 @@
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure.connections.connection import Connection
+from pybrain2.structure.connections.connection import Connection
 
 
 class IdentityConnection(Connection):

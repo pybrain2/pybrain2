@@ -2,8 +2,8 @@ from __future__ import print_function
 
 __author__ = 'Frank Sehnke, sehnke@in.tum.de'
 
-from pybrain.rl.environments import EpisodicTask
-from pybrain.rl.environments.ode.sensors import SpecificBodyPositionSensor
+from pybrain2.rl.environments import EpisodicTask
+from pybrain2.rl.environments.ode.sensors import SpecificBodyPositionSensor
 from scipy import tanh, zeros, array, random, sqrt, asarray
 
 

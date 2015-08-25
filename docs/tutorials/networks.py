@@ -8,8 +8,8 @@ from __future__ import print_function
 
 __author__ = 'Tom Schaul, tom@idsia.ch'
 
-from pybrain.structure import FeedForwardNetwork, LinearLayer, SigmoidLayer, FullConnection, RecurrentNetwork
-from pybrain.tools.shortcuts import buildNetwork
+from pybrain2.structure import FeedForwardNetwork, LinearLayer, SigmoidLayer, FullConnection, RecurrentNetwork
+from pybrain2.tools.shortcuts import buildNetwork
 
 """ This tutorial will attempt to guide you for using one of PyBrain's most basic structural elements:
 Networks, and with them Modules and Connections.
